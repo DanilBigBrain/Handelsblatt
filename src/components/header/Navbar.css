@@ -1,0 +1,180 @@
+.Head{
+    
+  display: flex;
+  justify-content: center
+    
+   
+}
+
+.Date{
+  position: relative;
+top: 5px;
+}
+
+.NavPos{
+  margin-top: -20px;
+  margin-left: 80px;
+}
+
+.HeadSize{
+  max-height: 1012px;
+  word-break:break-all;
+}
+.Login{
+  
+   max-width: 100%;
+  
+  
+}
+.Abo{
+  
+  background-color: #ef7100;
+  color: white;
+  text-align: center;
+  width: 40px;
+  float: right;
+ 
+}
+
+
+
+.List{
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.Minilogo{
+  max-height: 20px;
+  max-width: 20px;
+  
+}
+
+.Navleft{
+  float: left;
+}
+
+.Searchfield{
+  max-width: 70px;
+  max-height: 30px;
+ 
+
+}
+
+.PictureSize{
+  max-width: 182px !important;
+  max-height: 27px !important;
+}
+
+.FootLink{
+  margin-top: 40px;
+  width: 100% !important;
+  float: left;
+}
+
+.SizeofText{
+  color: black !important;
+  font-size: 13px !important;
+}
+.NavFoot{
+  width: 100%;
+ height: auto;
+ word-break:break-all;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+
+
+@media  (max-width: 768px) {
+
+  .NavFoot{
+   display: none;
+  }
+
+  .HeadSize{
+   display: none;
+  }
+  .Head{
+    
+
+    display: flex;
+    justify-content: center
+      
+     
+  }
+  
+  .Login{
+     
+     max-width: 100%;
+    
+    
+  }
+  .Abo{
+    
+    background-color: #ef7100;
+    color: white;
+    text-align: center;
+    width: 40px;
+    float: right;
+   
+  }
+  
+
+
+  
+  
+  .List{
+      display: inline-flex;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  .Date{
+    float: left;
+    
+  }
+  .Minilogo{
+    max-height: 20px;
+    max-width: 20px;
+    
+  }
+  
+  .Navleft{
+    float: left;
+  }
+  
+  .Searchfield{
+    max-width: 70px;
+    max-height: 30px;
+   
+  
+  }
+  
+  .PictureSize{
+    max-width: 182px !important;
+    max-height: 27px !important;
+    margin-top: 40px !important;
+  }
+  
+  .FootLink{
+    margin-top: 40px;
+    width: 100% !important;
+    float: left;
+  }
+  
+  .SizeofText{
+    color: black !important;
+    font-size: 13px !important;
+    margin-top: 40px !important;
+    width: 100% !important;
+    float: left;
+  }
+
+  
+}
+

@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Backscreen{
+  background-color: #f2f2f2;
+  min-height: 100;
+  max-width:1060,
+  
+}
+
+.Logo{
+transform: scale(0.5);
+display: flex;
+align-items: center;
+
+   justify-content: center;
+}
+
+.DivLogo{
+  width: 100%;
+  height: auto;
+  
+}
+
+
+.Test{
+  transform: scale(0.8);
+  
+}
+
+.TextaboveLine{
+  margin-top: 50px;
+  font-size: 14pt;
+  font-weight:700;
+  color: black !important;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.Thickline{
+  border: 2px solid black
+}
+
+.TextaboveLine2{
+  font-size: 9pt;
+  float: right;
+  font-weight:bold;
+  color: black !important;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.TextaboveLine3{
+  margin-top: 50px;
+  font-size: 11pt;
+  font-weight:normal;
+  color: black !important;
+}
+
+.Minilogo{
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.Image{
+  
+  width: 100%;
+  height: 'auto';
+  margin-top: 40px;
+     
+  }
+
+  .Panel{
+    border: 2px solid #d2d2d2 !important;
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  .ABO{
+    background-color: #ee7f00 ;
+    color: white;
+    float: left;
+    height: 25px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    display: none;
+  }
+  .HamburgerMenu{
+    float: right;
+    margin-top: 25px;
+    display: none;
+    margin-bottom: 10px;
+    width: 100%;
+    opacity: 0;
+  }
+
+  @media  (max-width: 768px) {
+    .Backscreen{
+      background-color: #f2f2f2;
+      height: 100vh;
+      width:100%,
+    }
+
+    .ABO{
+      background-color: #ee7f00 ;
+      color: white;
+      float: left;
+      width: 100%;
+      font-weight: bold;
+      width: 50px;
+      display: inline;
+    }
+    .HamburgerMenu{
+      float: right;
+      margin-top: 15px;
+      opacity: 1;
+      width: 100%;
+    }
+
+    .Logo{
+      transform: scale(0.5);
+      display: flex;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+       
+      }
+
+      .DivLogo{
+        width: 70%;
+        height: auto;
+         
+      }
+
+      .First3Picturies{
+        display: none;
+      }
+
+
+
+      .TextaboveLine{
+        margin-top: 50px;
+        font-size: 10pt;
+        font-weight:700;
+        color: black !important;
+        
+      }
+      
+      .Thickline{
+        border: 1px solid black
+      }
+      
+      .TextaboveLine2{
+        font-size: 7pt;
+        float: right;
+        font-weight:bold;
+        color: black !important;
+        text-transform: uppercase;
+        padding-top: 10px;
+      }
+      
+      .TextaboveLine3{
+        margin-top: 50px;
+        font-size: 11pt;
+        font-weight:normal;
+        color: black !important;
+      }
+
+      .Pictures4{
+        display: none;
+      }
+
+      .HideElement{
+        display: none;
+      }
+
+     .Test{
+       margin-left: 10%;
+     }
+  }

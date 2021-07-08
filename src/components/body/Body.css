@@ -1,0 +1,496 @@
+
+
+.ButtonSubscribe{
+    position: relative;
+    bottom: 130px;
+    left: 30px;
+}
+
+.slider {
+    position: relative;
+    -webkit-appearance: none;
+    width: 80%;
+    height: 4px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 1;
+    bottom: 140px;
+    left: 30px;
+}
+
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.LinkColor{
+    color: black !important;
+    
+}
+.HeadColor{
+    color:#ee7f00 !important;
+}
+
+.AboveHeadColor{
+    color:#ee7f00 !important;
+    
+}
+
+.More{
+    color: #ee7f00 !important;
+
+    margin-left: 1% !important;
+    font-size: 14px !important;
+    
+}
+
+.Author{
+    color:#b1b1b0 !important;
+    font-size: small  !important;
+}
+.BodySize{
+    min-height:auto !important;
+    display: flex !important;
+   
+    
+}
+
+.HeadContainer{
+    height: 25px !important;
+    text-overflow: ellipsis    !important;
+    overflow:hidden;
+    white-space:nowrap
+}
+
+.DescriptionContainer{
+    height: 100px !important;
+    text-overflow: ellipsis    !important;
+    overflow:hidden;
+   white-space: pre-line;
+   
+}
+
+
+
+.ColorandSize{
+    color: black  !important;
+    font-size: 15px !important;
+    font-weight: bold  !important;
+    
+}
+
+.LinkColor:hover{
+    cursor: pointer !important;
+}
+
+.Display{
+    min-height: 0px  !important;
+    
+    display: flex !important;
+  }
+
+  .BlockText{
+      color: black !important;
+      font-size: 14px !important;
+  }
+
+
+.ButtonsPosition{
+    margin-top: 40px;
+}
+
+.Mediaplayer{
+    margin-top: 70px;
+    border: 2px solid #ee7f00 !important;
+    max-width: 620px !important;
+    height: 255px !important;
+    
+  
+}
+
+.MediapayerHead{
+    position: relative;
+    font-size: x-small;
+    text-transform: uppercase;
+    color: #ee7f00;
+    font-weight: bold;
+    margin-left: 100px;
+    bottom: 80px;
+    width: 380px;
+}
+
+.MediapayerText{
+    position: relative;
+    font-size:medium;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    bottom: 90px;
+    width: 380px;
+}
+
+.Mediaplay{
+    
+    color:#ee7f00 !important;  
+}
+
+.Mediapicture{
+    position: relative;
+    height: 90px;
+    width: 90px;
+   
+    bottom: 180px;
+}
+
+
+.Newsticker{
+    border: 2px solid #b9b9b9 !important;
+    margin-left: 30px;
+    width: 300px !important;
+    height: 631px !important;
+    margin-top: 10%;
+    overflow:scroll;
+    overflow-x: hidden;
+    
+}
+
+.SidebarPicker{
+    border-bottom: 2px solid #b9b9b9 !important;
+    height: 50px;
+    width: 298px !important;
+   
+ 
+}
+
+.HeadWords{
+    display: flex;
+    flex-direction: row;
+    word-spacing: 15px;
+    margin-left:15px;
+    font-weight: 700;
+    font-size: 0.9em;
+    color: black;
+}
+
+.ThreebarsPicker{
+    border-bottom: 2px solid #b9b9b9 !important;
+    height: 50px;
+    width: 288px !important;
+}
+
+.HeadWords2{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left:15px;
+    font-weight: 700;
+    font-size: 0.9em;
+    color: black;
+}
+
+.HeadWords:hover{
+    cursor: pointer;
+    
+}
+
+.Text{
+    font-weight: bold;
+    font-size: 0.8em;
+    color: black;
+    
+}
+
+.ThreeBarsText{
+    font-weight: bold;
+    font-size: 0.9em;
+    color: black;
+    
+}
+
+.ThreeBarsWeiterArtikels{
+    font-weight: bold;
+    font-size: 0.8em;
+    color: black;
+    text-align: center;
+}
+
+.Text2{
+    font-weight: bold;
+    font-size: 0.85em;
+    
+}
+
+.Text3{
+    
+    font-size: 0.9em;
+    
+}
+
+.ThreeBarsHead{
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #ee7f00;
+    height: 5px;
+    margin-top: 10px;
+    
+}
+
+.Textblock{
+    width: 240px !important;
+    min-height: 50px;
+    margin-left: 10px;
+}
+
+.WahlPict{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.ElectionFrame{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.LargePict{
+   max-width: 620px;
+   max-height: auto;
+   margin-top: 6%;
+   display: flex !important;
+   
+   
+}
+
+.OnlyPicture{
+    width: 100%;
+   height: auto;
+   margin-top: 6%;
+   
+}
+
+.PictPosition{
+    margin-top: 2%;
+}
+
+.LineColor{
+    color: #b9b9b9;
+    
+}
+
+.SideBar{
+    
+    width: 300px;
+    float: right;
+    margin-top: 4%;
+  
+}
+
+
+.Smallnewsticker{
+    border: 2px solid #b9b9b9 !important;
+    
+    width: 300px !important;
+    min-height: 279px !important;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   margin-left:30px;
+  
+}
+
+
+.Widget{
+    max-width: 620px;
+    max-height: 642px;
+    
+    display: flex !important;
+    background-color: #f2f2f2;
+}
+
+.Video{
+  
+    width: 100%;
+    height: auto;
+}
+
+.Chart{
+    width: 100%;
+    height: 450px;
+    
+    
+}
+
+.Btnback{
+   
+    background-color: #ee7f00;
+}
+
+.ThreeBars{
+    float: left;
+    border: 2px solid #b9b9b9 !important;
+    width: 290px !important;
+    min-height: 379px !important;
+    margin-top: 10%;
+    margin-left:17px;
+  
+}
+
+.SecondThreeBars{
+    float: left;
+    border: 2px solid #b9b9b9 !important;
+    width: 290px !important;
+    min-height: 309px !important;
+    margin-top: 2%;
+    margin-left:17px;
+}
+
+.Test{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ColorofLinks{
+    color: black !important;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.SizeofLinks{
+    width: 140px !important;
+   margin-top: 25px;
+  margin-right: 140px !important;
+   
+}
+
+.LinksColorandSize{
+
+    color: #b9b9b9 !important;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+@media  (max-width: 768px) {
+    .More{
+        color: #ee7f00 !important;
+    
+        margin-left: 1% !important;
+        font-size: 10px !important;
+        
+    }
+    .PictrueMobile{
+        margin-top: 40px;
+        
+    }
+
+    .Author{
+        color:#b1b1b0 !important;
+        font-size:10px  !important;
+    }
+    .BodySize{
+        min-height:auto !important;
+        display: flex !important;
+        flex-direction: column-reverse;
+        
+        
+    }
+
+
+    .ColorandSize{
+        color: black  !important;
+        font-size: 11px !important;
+        font-weight: normal  !important;
+        
+    }
+    
+    .HeadColor{
+        color:#ee7f00 !important;
+        font-size: 10px !important;
+    }
+
+    .SideBar{
+    
+        width: 300px;
+        float: right;
+        margin-top: 4%;
+        display: none;
+    }
+
+
+    .LargePict{
+        display: none;
+        
+     }
+
+     .BlockText{
+        color: black !important;
+        font-size: 14px !important;
+        display: none;
+    }
+
+  
+    .More{
+        color: #ee7f00 !important;
+    
+        margin-left: 1% !important;
+        font-size: 14px !important;
+        display: none;
+    }
+
+    .Mediaplayer{
+      display: none;
+    }
+
+    .Chart{
+        width: 100%;
+        height: auto;
+
+        
+    }
+
+    
+  }
+  
+  @media  (max-width: 480px) {
+    .HeadColor{
+        color:#ee7f00 !important;
+        font-size: 10px !important;
+    }
+    
+
+  }
+
+
+  @media  (max-width: 1023px) {
+    .SideBar{
+    
+        width: 300px;
+        float: right;
+        margin-top: 4%;
+        
+        display: none;
+    }
+  }
+  
