@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.Footer{
+  position: sticky;
+}
 
 .App-logo {
   height: 40vmin;
@@ -41,8 +44,9 @@
 .Backscreen{
   background-color: #f2f2f2;
   min-height: 100;
-  max-width:1060,
-  
+  max-width:1060;
+  display: flex;
+    flex-direction: column;
 }
 
 .Logo{

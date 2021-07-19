@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 
-import Test from './picture_test/testPic.gif'
+import Test from './components/testPic.gif'
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import ShareIcon from '@material-ui/icons/Share';
@@ -12,33 +12,32 @@ import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
 
 import Typography from '@material-ui/core/Typography';
 import { CenterFocusStrong } from '@material-ui/icons';
-import './Body.css';
+//import './Body.css';
 //import './Test.css';
+import './Ads.css'
 const useStyles = makeStyles((theme) => ({
     root: {
       
     },
     picture:{
-       height:'auto',
-        width:'100%',
-        marginTop:10
+     
         
     }
 
   }));
   
  
-  export const  Ad=(props)=> {
+  export const  FooterBanner=(props)=> {
     const classes = useStyles();
     
         return (
             
             <div className="Display" style={{display:props.Display}}>
 
-            <Container>
-        <img className={classes.picture} src={Test} alt="logo"/>
+            
+        <img className="Footer" src={Test} alt="logo"/>
       
-        </Container>
+        
             </div>
         );
     

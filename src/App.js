@@ -30,7 +30,10 @@ import Link from '@material-ui/core/Link';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import Ad from './components/body/Ad.js'
+//import {Ad} from './components/body/Ad.js'
+import {Billboard} from './components/ads/Billboard.js'
+import {FooterBanner} from './components/ads/FooterBanner.js'
+import {Fireplace} from './components/ads/Fireplace.js'
 import minilogo from './logos/HauFDfyf_normal.jpg'
 import Format from './logos/1-formatOriginal.webp'
 import MenuIcon from '@material-ui/icons/Menu';
@@ -46,11 +49,13 @@ const styles  = theme=> ({
      
     maxWidth:1020,
     backgroundColor:'white',
+    
     '@media (max-width: 480px)': {
       
      }
     
   },
+
   line:{
     color:'#b9b9b9',
     width:'100%',
@@ -65,7 +70,7 @@ const styles  = theme=> ({
   },
 
   test:{
-    
+    position:'sticky'
   }
 });
 
@@ -86,6 +91,7 @@ function update(){
   constructor(props) {  
   super(props);   
  this.state = {  
+   testAd:'none',
   //date: new Date().toLocaleString()
   date: Moment().format('LLLL'),
  };}
@@ -125,10 +131,12 @@ for(var i=0;i<20;i++){
   
   return (
   
-    
+
     
     <div className="Backscreen">
      
+       {/*Fireplace place*/}
+      
       <CssBaseline />
       <Container className={classes.root} maxWidth="false">
       
@@ -143,7 +151,7 @@ for(var i=0;i<20;i++){
         <img  className="Logo" src={mainlogo} alt="logo" />
         </div>
     </Grid>
-
+    
     <Typography >
 <hr width="100%" className={classes.line}>
   </hr>
@@ -152,6 +160,12 @@ for(var i=0;i<20;i++){
 
 
 <Navbarfeed/>
+
+ {/*Billboard place*/}
+<Billboard Display={this.state.testAd}/>
+<div className="Footer">
+
+</div>
 
 <Body title={Data.articles[0].title} description={Data.articles[0].description} content={Data.articles[0].content} image={Data.articles[0].urlToImage}/>
 <Typography >
@@ -599,10 +613,17 @@ title3={Data.articles[2].title} description3={Data.articles[2].description} cont
 </div>
 <Footer update={update}/>
 
-  </Typography>
- 
+<FooterBanner/>
 
+  </Typography>
+
+  
+ 
       </Container>
+
+      
+      
+      
    
     </div>
  

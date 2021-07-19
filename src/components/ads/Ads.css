@@ -1,0 +1,13 @@
+.Footer{
+    width: 100%;
+    height: auto;
+  
+}
+
+.Display{
+   
+    position:sticky; 
+    bottom:0;
+ 
+    
+  }
