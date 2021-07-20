@@ -11,3 +11,100 @@
  
     
   }
+
+  .Skypict{
+  
+    width: 100%;
+    height: auto;
+    
+}
+
+.Skyscraper{
+    
+  
+    width: 100%;
+    height: auto;
+   position:sticky;
+   top:40px;
+}
+
+.Skyscraper1Lay{
+    position: absolute;
+    right: 4%;
+    height: 21709px;
+    
+}
+
+.Halfpage1Lay{
+    position: absolute;
+    right: 0;
+    height: 21709px;
+}
+
+.Halfpage{
+
+    width: 100%;
+    height: auto;
+   position:sticky;
+   top:40px;
+}
+
+.Halfpict{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+@media  (max-width: 480px) {
+    .Skypict{
+  
+        width: 30%;
+        height: auto;
+        
+    }
+    
+    .Skyscraper{
+        
+      
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+       justify-content: center;
+    }
+    
+    .Skyscraper1Lay{
+       
+        position: relative;
+        height: auto;
+        width: 100%;
+       
+        
+    }
+
+    .Medium1Lay{
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    .Medium{
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    .Mediumpict{
+        width: 300px;
+        height: 250px;
+    }
+  }

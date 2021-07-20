@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import React,{useEffect, useState, Component} from 'react';
-
 import './App.css';
 // Handelsblatt Version
 import MediaPlayer from './components/body/MediaPlayer.js'
@@ -20,7 +19,6 @@ import {Body} from './components/body/Body.js'
 import Buttonsgroup from './components/body/Buttonsgroup'
 import {LargePict,LargePict1,LargePict2,LargePict3,LargePict4,LargePict5} from './components/body/LargePict'
 import {Body3Pictures,Body3Pictures1,Body3Pictures2,Body3Pictures3,Body3Pictures4,Body3Pictures5,Body3Pictures6,Body3Pictures7,Body3Pictures8,Body3Pictures9,Body3Pictures10,Body3Pictures11,Body3Pictures12,Body3Pictures13,Body3Pictures14} from './components/body/Body3Pictures.js'
-
 import Navbarfeed from './components/header/Navbarfeed.js'
 import mainlogo from './logos/handelsblatt.png'
 import test from './logos/bild.png'
@@ -31,9 +29,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 //import {Ad} from './components/body/Ad.js'
-import {Billboard} from './components/ads/Billboard.js'
-import {FooterBanner} from './components/ads/FooterBanner.js'
-import {Fireplace} from './components/ads/Fireplace.js'
 import minilogo from './logos/HauFDfyf_normal.jpg'
 import Format from './logos/1-formatOriginal.webp'
 import MenuIcon from '@material-ui/icons/Menu';
@@ -43,6 +38,15 @@ import { withStyles } from '@material-ui/core/styles';
 import Data2 from './data2.json';
 import Moment from 'moment'
 import 'moment/locale/de'
+
+
+// Werbemittel
+import {Billboard} from './components/ads/Billboard.js'
+import {FooterBanner} from './components/ads/FooterBanner.js'
+import {Fireplace} from './components/ads/Fireplace.js'
+import {SkyScrapper} from './components/ads/SkyScrapper.js'
+import {Halfpage} from './components/ads/Halfpage.js'
+import {MediumRec} from './components/ads/MediumRec.js'
 
 const styles  = theme=> ({
   root: {
@@ -91,7 +95,13 @@ function update(){
   constructor(props) {  
   super(props);   
  this.state = {  
-   testAd:'none',
+   footer:'none',
+   billboard:'none',
+   fireplace:'none',
+   skyscrapper:'none',
+   halfpage:'none',
+   skyscrappermobile:'none',
+   mediumRectangle:'none',
   //date: new Date().toLocaleString()
   date: Moment().format('LLLL'),
  };}
@@ -135,12 +145,23 @@ for(var i=0;i<20;i++){
     
     <div className="Backscreen">
      
-       {/*Fireplace place*/}
+       {/*Fireplace place */}
+
+       <div className="Skyscrapper">
+
+       <SkyScrapper Display={this.state.skyscrapper}/>
+
+       </div>
       
+      
+       
       <CssBaseline />
       <Container className={classes.root} maxWidth="false">
-      
+     
         <Typography  style={{  minHeight: '1760px'}} >
+
+        
+
         <Navbar date={this.state.date}/>
          <p className="ABO">ABO</p>
         <MenuIcon className="HamburgerMenu"/>
@@ -162,9 +183,10 @@ for(var i=0;i<20;i++){
 <Navbarfeed/>
 
  {/*Billboard place*/}
-<Billboard Display={this.state.testAd}/>
-<div className="Footer">
+<Billboard Display={this.state.billboard}/>
 
+<div className="MediumRectangleMobile">
+<MediumRec Display={this.state.mediumRectangle}/>
 </div>
 
 <Body title={Data.articles[0].title} description={Data.articles[0].description} content={Data.articles[0].content} image={Data.articles[0].urlToImage}/>
@@ -217,12 +239,18 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 </Typography>
 
 
+
+
 <Container>
 <Buttonsgroup/>
 <Grid>
 <SideBar/>
 </Grid>
 <MediaPlayer/>
+
+<div className="SkyscrapperMobile">
+       <SkyScrapper Display={this.state.skyscrappermobile}/>
+      </div>
 
 <LargePict title={Data.articles[7].title} description={Data.articles[7].description} content={Data.articles[7].content} image={Data.articles[7].urlToImage}/>
 
@@ -278,6 +306,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 <hr width="96%" className="Thickline">
   </hr>
 </Typography>
+
 
 <div className="HideElemets">
 
@@ -613,7 +642,7 @@ title3={Data.articles[2].title} description3={Data.articles[2].description} cont
 </div>
 <Footer update={update}/>
 
-<FooterBanner/>
+<FooterBanner Display={this.state.footer}/>
 
   </Typography>
 
