@@ -19,7 +19,7 @@ import {Body} from './components/body/Body.js'
 import Buttonsgroup from './components/body/Buttonsgroup'
 import {LargePict,LargePict1,LargePict2,LargePict3,LargePict4,LargePict5} from './components/body/LargePict'
 import {Body3Pictures,Body3Pictures1,Body3Pictures2,Body3Pictures3,Body3Pictures4,Body3Pictures5,Body3Pictures6,Body3Pictures7,Body3Pictures8,Body3Pictures9,Body3Pictures10,Body3Pictures11,Body3Pictures12,Body3Pictures13,Body3Pictures14} from './components/body/Body3Pictures.js'
-import Navbarfeed from './components/header/Navbarfeed.js'
+import Navbarfoot from './components/header/Navbarfoot.js'
 import mainlogo from './logos/handelsblatt.png'
 import test from './logos/bild.png'
 import Grid from '@material-ui/core/Grid';
@@ -47,6 +47,9 @@ import {Fireplace} from './components/ads/Fireplace.js'
 import {SkyScrapper} from './components/ads/SkyScrapper.js'
 import {Halfpage} from './components/ads/Halfpage.js'
 import {MediumRec} from './components/ads/MediumRec.js'
+import {Superbanner} from './components/ads/Superbanner.js'
+import {Rectangle} from './components/ads/Rectangle.js'
+
 
 const styles  = theme=> ({
   root: {
@@ -102,6 +105,8 @@ function update(){
    halfpage:'none',
    skyscrappermobile:'none',
    mediumRectangle:'none',
+   superbanner:'none',
+   rectangle:'none',
   //date: new Date().toLocaleString()
   date: Moment().format('LLLL'),
  };}
@@ -165,10 +170,13 @@ for(var i=0;i<20;i++){
         <Navbar date={this.state.date}/>
          <p className="ABO">ABO</p>
         <MenuIcon className="HamburgerMenu"/>
+        
         <Grid align="center">
        
-       
+        
         <div className="DivLogo">
+           {/*Rectangle place*/}
+           <Rectangle Display={this.state.rectangle}/>
         <img  className="Logo" src={mainlogo} alt="logo" />
         </div>
     </Grid>
@@ -180,10 +188,14 @@ for(var i=0;i<20;i++){
 
 
 
-<Navbarfeed/>
+<Navbarfoot/>
 
  {/*Billboard place*/}
 <Billboard Display={this.state.billboard}/>
+
+{/*Superbanner place*/}
+<Superbanner Display={this.state.superbanner}/>
+
 
 <div className="MediumRectangleMobile">
 <MediumRec Display={this.state.mediumRectangle}/>

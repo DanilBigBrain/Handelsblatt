@@ -55,6 +55,25 @@
 }
 
 
+.SuperbannerDisplay{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+
+}
+
+.RectangleDisplay{
+   position: absolute;
+   height: 80px;
+}
+
+.RectanglePict{
+    width: 100%;
+    height: inherit;
+}
 
 
 
@@ -107,4 +126,15 @@
         width: 300px;
         height: 250px;
     }
+
+    .RectangleDisplay{
+        display: none;
+     }
+
+     .SuperbannerDisplay{
+       display: none;
+       
+       
+       
+       }
   }

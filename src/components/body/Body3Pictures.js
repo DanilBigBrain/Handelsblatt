@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
         width:'31%',
        '@media (max-width: 768px)': {
         
-        
+       
       }
       
      
@@ -95,18 +95,24 @@ const useStyles = makeStyles((theme) => ({
     },
     
    newstext:{
+    
     width:'32%',
     marginLeft:4,
     display:'flex',
     flexDirection:'column',
     float:'left',
-    
+
+    "&:hover":{
+      cursor:'pointer'
+    },
+   
     '@media (max-width: 768px)': {
       width:'32%',
       
       
      }
    },
+  
 
    headcontainer:{
      height:50,
@@ -117,6 +123,9 @@ const useStyles = makeStyles((theme) => ({
   
    container:{
      width:'100%',
+
+   
+
    },
 
    test:{

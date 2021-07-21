@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 
-import Test from './components/testPic.gif'
+import Test from './components/rectangle.png'
 
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
@@ -19,29 +19,29 @@ const useStyles = makeStyles((theme) => ({
     root: {
       
     },
-    picture:{
-       height:'auto',
-        width:'100%',
-        marginTop:10
-        
-    }
+   
 
   }));
   
  
-  export const  Billboard=(props)=> {
+  export const  Rectangle=(props)=> {
     const classes = useStyles();
     
         return (
-            
-            <div className="Display" style={{display:props.Display}}>
 
-            <Container>
-        <img className={classes.picture} src={Test} alt="logo"/>
+          
+            
+            <div className="RectangleDisplay" style={{display:props.Display}}>
+
+            
+        <img className="RectanglePict" src={Test} alt="logo"/>
       
-        </Container>
+        
             </div>
+
+            
         );
+
     
 }
 

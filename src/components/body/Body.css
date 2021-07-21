@@ -78,7 +78,8 @@
     height: 25px !important;
     text-overflow: ellipsis    !important;
     overflow:hidden;
-    white-space:nowrap
+    white-space:nowrap;
+    cursor: pointer !important;
 }
 
 .DescriptionContainer{
@@ -86,6 +87,7 @@
     text-overflow: ellipsis    !important;
     overflow:hidden;
    white-space: pre-line;
+   cursor: pointer !important;
    
 }
 
@@ -429,6 +431,7 @@
     .HeadColor{
         color:#ee7f00 !important;
         font-size: 10px !important;
+        
     }
 
     .SideBar{

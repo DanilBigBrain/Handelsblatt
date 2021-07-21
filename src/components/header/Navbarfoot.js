@@ -22,7 +22,11 @@ const useStyles = makeStyles((theme) => ({
       '@media (max-width: 768px)': {
         fontWeight:700,
         fontSize:9,
-      }
+      },
+      "&:hover": {
+        color: "#ef7100",
+        
+      },
     },
     
   },
