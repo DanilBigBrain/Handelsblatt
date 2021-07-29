@@ -12,7 +12,7 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import AddIcon from '@material-ui/icons/Add';
-
+import Noimage from './picture_test/noimage.png'
 import  './Body.css'
 
 const useStyles = makeStyles((theme) => ({
@@ -87,7 +87,7 @@ export const  LargePict=(props) => {
 
             <hr className="LineColor"></hr>
             
-            <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+            <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
                 
 
 
@@ -178,7 +178,7 @@ export const  LargePict1=(props) =>{
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -268,7 +268,7 @@ export const  LargePict2=(props) => {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -358,7 +358,7 @@ export const  LargePict3=(props) => {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -448,7 +448,7 @@ export const  LargePict4=(props) => {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -539,7 +539,7 @@ export const  LargePict5=(props) => {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 

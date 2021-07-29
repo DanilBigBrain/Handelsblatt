@@ -23,7 +23,7 @@ import Navbarfoot from './components/header/Navbarfoot.js'
 import mainlogo from './logos/handelsblatt.png'
 import test from './logos/bild.png'
 import Grid from '@material-ui/core/Grid';
-import noimage from './logos/noimage.jpg'
+import noimage from './logos/noimage.png'
 import Link from '@material-ui/core/Link';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
@@ -101,7 +101,7 @@ function update(){
    footer:'none',
    billboard:'none',
    fireplace:'none',
-   skyscrapper:'none',
+   skyscrapper:'',
    halfpage:'none',
    skyscrappermobile:'none',
    mediumRectangle:'none',

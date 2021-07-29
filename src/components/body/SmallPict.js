@@ -12,7 +12,7 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import AddIcon from '@material-ui/icons/Add';
-
+import Noimage from './picture_test/noimage.png'
 import  './Body.css'
 
 const useStyles = makeStyles((theme) => ({
@@ -110,7 +110,7 @@ export const  SmallPict=(props)=> {
 
             <hr className="LineColor"></hr>
             
-            <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+            <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
                 
 
 
@@ -201,7 +201,7 @@ export const  SmallPict1=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -290,7 +290,7 @@ export const  SmallPict2=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -380,7 +380,7 @@ export const  SmallPict3=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -470,7 +470,7 @@ export const  SmallPict4=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -560,7 +560,7 @@ export const  SmallPict5=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -651,7 +651,7 @@ export const  SmallPict6=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -742,7 +742,7 @@ export const  SmallPict7=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -833,7 +833,7 @@ export const  SmallPict8=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
@@ -923,7 +923,7 @@ export const  SmallPict9=(props)=> {
 
           <hr className="LineColor"></hr>
           
-          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src="https://i.stack.imgur.com/y9DpT.jpg"}} />
+          <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
               
 
 
