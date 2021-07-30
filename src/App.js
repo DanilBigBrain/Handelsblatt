@@ -44,7 +44,8 @@ import 'moment/locale/de'
 import {Billboard} from './components/ads/Billboard.js'
 import {FooterBanner} from './components/ads/FooterBanner.js'
 import {Fireplace} from './components/ads/Fireplace.js'
-import {SkyScrapper} from './components/ads/SkyScrapper.js'
+import {DoppelSideBarRight} from './components/ads/DoppelSideBarRight.jsx'
+import {DoppelSideBarLeft} from './components/ads/DoppelSideBarLeft.jsx'
 import {Halfpage} from './components/ads/Halfpage.js'
 import {MediumRec} from './components/ads/MediumRec.js'
 import {Superbanner} from './components/ads/Superbanner.js'
@@ -54,8 +55,9 @@ import {Rectangle} from './components/ads/Rectangle.js'
 const styles  = theme=> ({
   root: {
      
-    maxWidth:1020,
+    maxWidth:1020, //1020
     backgroundColor:'white',
+    
     
     '@media (max-width: 480px)': {
       
@@ -101,7 +103,7 @@ function update(){
    footer:'none',
    billboard:'none',
    fireplace:'none',
-   skyscrapper:'',
+   dopelside:'',
    halfpage:'none',
    skyscrappermobile:'none',
    mediumRectangle:'none',
@@ -152,11 +154,11 @@ for(var i=0;i<20;i++){
      
        {/*Fireplace place */}
 
-       <div className="Skyscrapper">
+       
 
-       <SkyScrapper Display={this.state.skyscrapper}/>
+       <DoppelSideBarRight Display={this.state.dopelside}/>
 
-       </div>
+       <DoppelSideBarLeft Display={this.state.dopelside}/>
       
       
        
@@ -260,9 +262,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 </Grid>
 <MediaPlayer/>
 
-<div className="SkyscrapperMobile">
-       <SkyScrapper Display={this.state.skyscrappermobile}/>
-      </div>
+
 
 <LargePict title={Data.articles[7].title} description={Data.articles[7].description} content={Data.articles[7].content} image={Data.articles[7].urlToImage}/>
 

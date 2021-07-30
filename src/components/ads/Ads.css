@@ -12,29 +12,56 @@
     
   }
 
-  .Skypict{
+  .DoppelSideBarRightpict{
   
-    width: 100%;
-    height: auto;
-    
+    width: 50vh;
+    height: 100vh;
+   
     
 }
 
-.Skyscraper{
+.DoppelSideBarRight{
     
-  
+    
     width: 100%;
     height: auto;
    position:sticky;
-   top:40px;
+   top:0;
 }
 
-.Skyscraper1Lay{
+.DoppelSideBarRight1Lay{
     position: absolute;
-    right: 4%;
-    height: 21709px;
+    right: 0;
+    height: 3053vh;
     
 }
+
+
+.DoppelSideBarLeftpict{
+  
+    width: 50vh;
+    height: 100vh;
+   
+    
+}
+
+.DoppelSideBarLeft{
+    
+    
+    width: 100%;
+    height: auto;
+   position:sticky;
+   top:0;
+}
+
+.DoppelSideBarLeft1Lay{
+    position: absolute;
+    left: 0;
+    height: 3053vh;
+    
+}
+
+
 
 .Halfpage1Lay{
     position: absolute;
