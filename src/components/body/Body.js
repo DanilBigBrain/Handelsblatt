@@ -52,7 +52,8 @@ const useStyles = makeStyles((theme) => ({
       
         width:350,
         height:'auto',
-        fontSize:25,
+        fontSize:'1.3vw',
+        //fontSize:25,
         fontWeight:600,
         
     

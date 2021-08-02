@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
       return (
           <div className={classes.test}>
-             <div className="Mediaplayer">
+             <div id="mediaplayer" className="Mediaplayer">
 
 <Grid className={classes.grid}>
 <Link className="Mediaplay">

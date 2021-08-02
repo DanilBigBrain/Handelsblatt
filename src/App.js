@@ -38,7 +38,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Data2 from './data2.json';
 import Moment from 'moment'
 import 'moment/locale/de'
-
+import './script.js'
 
 // Werbemittel
 import {Billboard} from './components/ads/Billboard.js'
@@ -57,6 +57,7 @@ const styles  = theme=> ({
      
     maxWidth:1020, //1020
     backgroundColor:'white',
+    
     
     
     '@media (max-width: 480px)': {
@@ -103,14 +104,14 @@ function update(){
    footer:'none',
    billboard:'none',
    fireplace:'none',
-   dopelside:'',
+   dopelside:'none',
    halfpage:'none',
    skyscrappermobile:'none',
    mediumRectangle:'none',
    superbanner:'none',
    rectangle:'none',
   //date: new Date().toLocaleString()
-  date: Moment().format('LLLL'),
+  date: Moment().format('LLL'),
  };}
 
 
@@ -124,17 +125,17 @@ function update(){
 
   for(var i=0;i<20;i++){
     if(Data.articles[i].title==null){
-      Data.articles[i].title="no title "
+      Data.articles[i].title="Der Titel wird zeitnah zur Verfügung gestellt "
   }
 }
 for(var i=0;i<20;i++){
   if(Data.articles[i].description==null){
-    Data.articles[i].description="no description "
+    Data.articles[i].description="Die Artikelbeschreibung wird zeitnah zur Verfügung gestellt"
 }
 }
 for(var i=0;i<20;i++){
   if(Data.articles[i].content==null){
-    Data.articles[i].content="no content "
+    Data.articles[i].content="Der Inhalt wird zeitnah zur Verfügung gestellt  "
 }
 }
 
@@ -156,14 +157,14 @@ for(var i=0;i<20;i++){
 
        
 
-       <DoppelSideBarRight Display={this.state.dopelside}/>
+       <DoppelSideBarRight  Display={this.state.dopelside}/>
 
-       <DoppelSideBarLeft Display={this.state.dopelside}/>
+       <DoppelSideBarLeft  Display={this.state.dopelside}/>
       
       
        
       <CssBaseline />
-      <Container className={classes.root} maxWidth="false">
+      <Container id="container" className="Container" maxWidth="false">
      
         <Typography  style={{  minHeight: '1760px'}} >
 
@@ -651,6 +652,7 @@ title3={Data.articles[2].title} description3={Data.articles[2].description} cont
 </Typography>
 
 <Links/>
+
 </div>
 <Footer update={update}/>
 
@@ -665,7 +667,7 @@ title3={Data.articles[2].title} description3={Data.articles[2].description} cont
       
       
       
-   
+     
     </div>
  
   );}
@@ -673,5 +675,6 @@ title3={Data.articles[2].title} description3={Data.articles[2].description} cont
   
   
 }
+
 
 export default withStyles(styles)(App);

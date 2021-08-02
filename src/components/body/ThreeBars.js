@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     block1:{
       
         width:306,
-      
+       
        
       
      },

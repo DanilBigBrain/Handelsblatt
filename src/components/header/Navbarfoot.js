@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: theme.spacing(2),
       color: '#000000',
        fontWeight:700,
-       fontSize:11,
+       fontSize:'0.75vw', //11
       height:'auto',
       width:'100%',
       '@media (max-width: 768px)': {

@@ -27,7 +27,8 @@ const useStyles = makeStyles((theme) => ({
    
     block1:{
     
-        fontSize:31,
+      //31
+        fontSize:'1.4vw',
         fontWeight:'bolder',
         height:95,
         overflow:'hidden',
@@ -36,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
         
     },
     block2:{
+       //14
         fontSize:14,
         width:210,
         overflow:'hidden',
@@ -45,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
     },
     block3:{
         fontSize:14,  
+        marginTop:20
        
         
     },

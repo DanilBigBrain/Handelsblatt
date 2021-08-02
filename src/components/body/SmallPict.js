@@ -33,13 +33,14 @@ const useStyles = makeStyles((theme) => ({
    
     block1:{
     
-        fontSize:24,
+      //24
+        fontSize:'1.5vw',
         fontWeight:'bold',
         height:110,
         overflow:'hidden',
         textOverflow:'ellipsis',
         whiteSpace:'pre-line',
-        width:370,
+        width:'60%', //370
         '@media (max-width: 768px)': {
          fontSize:15,
          height:90,
@@ -56,6 +57,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     block2:{
+       //14
         fontSize:14,
         marginTop:25,
        width:200,

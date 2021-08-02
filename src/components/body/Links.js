@@ -65,7 +65,7 @@ const useStyles = makeStyles((theme) => ({
     },
     
    newstext:{
-    width:240,
+    width:'25%', //240
   
     display:'flex',
     flexDirection:'column',
@@ -86,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
     
         return (
             
-            <div className="BodySize">
+            <div className="BodyLinks">
                
      
           <Typography>

@@ -36,13 +36,13 @@ const useStyles = makeStyles((theme) => ({
 
           
 
-            <div className="DoppelSideBarLeft1Lay">
-            <div className="DoppelSideBarLeft" style={{display:props.Display}}>
+            <div className="DoppelSideBarLeft1Lay"  style={{display:props.Display}}>
+            <div className="DoppelSideBarLeft" >
 
             
        {/*  <img className="Skypict" src="https://s0.2mdn.net/dfp/230725/4884463874/1610104558344/index.html" alt="logo"/> */}
  
-        <iframe  className="DoppelSideBarLeftpict" src="https://s0.2mdn.net/dfp/230725/4884463874/1610104635490/index.html" frameborder="10"></iframe>
+        <iframe  className="DoppelSideBarLeftpict" src="https://s0.2mdn.net/dfp/230725/4884463874/1610104635490/index.html" frameborder="0"></iframe>
     
         {/*https://s0.2mdn.net/dfp/230725/4884463874/1610104558344/index.html*/}
             </div>

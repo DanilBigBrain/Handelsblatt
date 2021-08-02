@@ -24,7 +24,7 @@
     
     
     width: 100%;
-    height: auto;
+    
    position:sticky;
    top:0;
 }
@@ -33,7 +33,7 @@
     position: absolute;
     right: 0;
     height: 3053vh;
-    
+  
 }
 
 

@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     picture:{
         marginTop:10,
         height:'auto',
-        width:'31%',
+        width:'30.5%',
 
         
        
@@ -123,7 +123,7 @@ const useStyles = makeStyles((theme) => ({
   
    container:{
      width:'100%',
-
+     
    
 
    },
@@ -152,7 +152,7 @@ const useStyles = makeStyles((theme) => ({
       <Container maxWidth="false" className={classes.container}>
 
     <Link className={classes.block1}>
-    <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
+    <img  className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
     
     </Link> 
     

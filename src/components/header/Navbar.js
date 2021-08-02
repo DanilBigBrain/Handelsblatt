@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
 
   date:{
     color: '#646464',
-    fontSize:12,
+    fontSize:'0.7vw', //12
   
   },
 

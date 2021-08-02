@@ -86,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
 
             <div className="Textblock">
 
-            <p className="ThreeBarsHead">Blick hinter die Zahlen #66 – Inflation</p>
+            <p className="ThreeBarsHead">Blick hinter die Zahlen #66s</p>
               <p className="ThreeBarsText">Die Kosten der Lebenshaltung steigen – und es dürfte noch viel teurer werden</p>
              
 
