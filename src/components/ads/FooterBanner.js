@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 
-import Test from './components/testPic.gif'
+
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import ShareIcon from '@material-ui/icons/Share';
@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
             <div className="Display" style={{display:props.Display}}>
 
             
-        <img className="Footer" src={Test} alt="logo"/>
+        <img className="Footer" src="" alt="logo"/>
       
         
             </div>

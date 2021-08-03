@@ -4,10 +4,15 @@
 
 .Container{
     /*1020*/
-    max-width: 820px;
+    max-width: 1020px;
     background-color: white;
+    position: relative;
     
+    transition: 2s;
 }
+
+
+
 
 .ButtonSubscribe{
     position: relative;
@@ -507,6 +512,9 @@
         color:#ee7f00 !important;
         font-size: 10px !important;
     }
+
+   
+    
     
 
   }

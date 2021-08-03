@@ -6,9 +6,36 @@
 
 .Display{
    
-    position:sticky; 
-    bottom:0;
- 
+    /*
+      .Backscreen{
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  max-width:1060;
+  display: flex;
+    flex-direction: column;
+    background-image: url('components/ads/components/Rollover.jpg');
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ */
+ width: 100%;
+height: 3065vh;
+    display: block;
+    justify-content: center;
+    position: absolute;
+    
+    background-image: url("./components/Rollover.jpg");
+   background-size: cover;
+    background-attachment:fixed
+  }
+
+  
+
+  .Rollover{
+      width: 100%;
+      height: auto;
+     
+   
     
   }
 
@@ -63,35 +90,25 @@
 
 
 
-.Halfpage1Lay{
+.Sidebar1Lay{
     position: absolute;
     right: 0;
-    height: 21709px;
+    height: 3043vh;
 }
 
-.Halfpage{
+.Sidebar{
 
     width: 100%;
     height: auto;
    position:sticky;
-   top:40px;
+   top:0;
 }
 
-.Halfpict{
+.Sidebarpict{
     width: 100%;
-    height: auto;
+    height: 100vh;
 }
 
-
-.SuperbannerDisplay{
- position: relative;
- display: flex;
- justify-content: center;
- align-items: center;
-
-
-
-}
 
 .RectangleDisplay{
    position: absolute;
@@ -104,42 +121,36 @@
 }
 
 
-
+.MobileInterscroller{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("./components/Apple_Mobile_interscroller.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+  
+   
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 55%, 0% 55%);*/
+    
+    }
+    .MobileInterscrollerPict{
+        
+    }
 
 @media  (max-width: 480px) {
-    .Skypict{
-  
-        width: 30%;
-        height: auto;
-        
-    }
-    
-    .Skyscraper{
-        
-      
-        width: 100%;
-        height: auto;
-        position: relative;
-        display: flex;
-       justify-content: center;
-    }
-    
-    .Skyscraper1Lay{
-       
-        position: relative;
-        height: auto;
-        width: 100%;
-       
-        
-    }
 
-    .Medium1Lay{
+
+    
+
+    .Takeover1Lay{
         position: relative;
         height: auto;
         width: 100%;
     }
 
-    .Medium{
+    .Takeover{
         position: relative;
         width: 100%;
         height: auto;
@@ -150,7 +161,7 @@
     
     
     
-    .Mediumpict{
+    .Takeoverpict{
         width: 300px;
         height: 250px;
     }
@@ -159,10 +170,77 @@
         display: none;
      }
 
-     .SuperbannerDisplay{
-       display: none;
-       
-       
+     .MobileInterscroller{
+       displayF: none;
        
        }
+
+
+       .Display{
+        display: none;
+      }
+    
+      .UniCreditMini{
+        display: none;
+      }
+    
+      .Rollover{
+        display: none;
+         
+       
+        
+      }
+    
+      .DoppelSideBarRightpict{
+      
+        display: none;
+       
+        
+    }
+    
+    .DoppelSideBarRight{
+        
+        
+        display: none;
+    }
+    
+    .DoppelSideBarRight1Lay{
+        display: none;
+    }
+    
+    
+    .DoppelSideBarLeftpict{
+      
+        display: none;
+        
+    }
+    
+    .DoppelSideBarLeft{
+        
+        
+        display: none;
+    }
+    
+    .DoppelSideBarLeft1Lay{
+        display: none;
+        
+    }
+    
+    
+    
+    .Sidebar1Lay{
+        display: none;
+    }
+    
+    .Sidebar{
+    
+        display: none;
+    }
+    
+    .Sidebarpict{
+       display: none;
+    }
+    
+
+
   }

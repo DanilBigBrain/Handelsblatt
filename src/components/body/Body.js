@@ -51,8 +51,11 @@ const useStyles = makeStyles((theme) => ({
     block1:{
       
         width:350,
-        height:'auto',
-        fontSize:'1.3vw',
+        height:150,
+        fontSize:'1.6vw',
+        overflow:'hidden',
+        textOverflow:'ellipsis',
+      
         //fontSize:25,
         fontWeight:600,
         

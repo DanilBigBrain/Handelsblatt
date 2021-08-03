@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 
-import Test from './components/rectangle.png'
+
 
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
             <div className="RectangleDisplay" style={{display:props.Display}}>
 
             
-        <img className="RectanglePict" src={Test} alt="logo"/>
+        <img className="RectanglePict" src="" alt="logo"/>
       
         
             </div>

@@ -46,7 +46,7 @@
   min-height: auto;
   max-width:1060;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
     
 }
 
@@ -253,4 +253,7 @@ align-items: center;
       display: block;
       justify-content: center;
     }
+
+
+    
   }

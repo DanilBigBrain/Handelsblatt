@@ -39,17 +39,23 @@ import Data2 from './data2.json';
 import Moment from 'moment'
 import 'moment/locale/de'
 import './script.js'
+import FordTakeOver1 from './components/ads/components/Ford_Takeover.jpg'
+import FordTakeOver2 from './components/ads/components/Ford_Takeover_2.jpg'
+import FordTakeOver3 from './components/ads/components/Ford_Takeover_3.jpg'
+//import Apple_Mobile_interscroller from './components/ads/components/Apple_Mobile_interscroller.jpg'
 
-// Werbemittel
-import {Billboard} from './components/ads/Billboard.js'
+
+// Werbemittel 
+
 import {FooterBanner} from './components/ads/FooterBanner.js'
-import {Fireplace} from './components/ads/Fireplace.js'
+import {UniCredit} from './components/ads/UniCredit.js'
 import {DoppelSideBarRight} from './components/ads/DoppelSideBarRight.jsx'
 import {DoppelSideBarLeft} from './components/ads/DoppelSideBarLeft.jsx'
-import {Halfpage} from './components/ads/Halfpage.js'
-import {MediumRec} from './components/ads/MediumRec.js'
-import {Superbanner} from './components/ads/Superbanner.js'
+import {Sidebar} from './components/ads/Sidebar.js'
+import {MobileTakeover} from './components/ads/MobileTakeover.js'
+import {MobileInterscroller} from './components/ads/MobileInterscroller.js'
 import {Rectangle} from './components/ads/Rectangle.js'
+import {UniCreditMini} from './components/ads/UniCreditMini.js'
 
 
 const styles  = theme=> ({
@@ -103,17 +109,20 @@ function update(){
  this.state = {  
    footer:'none',
    billboard:'none',
-   fireplace:'none',
+   unicredit:'none',
    dopelside:'none',
-   halfpage:'none',
-   skyscrappermobile:'none',
-   mediumRectangle:'none',
-   superbanner:'none',
+   sidebar:'none',
+   mobileInterscroller:'',
+   MobileTakeover:'none',
+   
    rectangle:'none',
   //date: new Date().toLocaleString()
   date: Moment().format('LLL'),
  };}
 
+ componentDidMount(){
+ 
+}
 
   render(){
 
@@ -154,19 +163,25 @@ for(var i=0;i<20;i++){
     <div className="Backscreen">
      
        {/*Fireplace place */}
+      
 
        
 
        <DoppelSideBarRight  Display={this.state.dopelside}/>
 
        <DoppelSideBarLeft  Display={this.state.dopelside}/>
-      
+       <UniCredit Display={this.state.unicredit}/>
+
+       <Sidebar Display={this.state.sidebar}/>
+        {/*<UniCredit/> */}
       
        
       <CssBaseline />
-      <Container id="container" className="Container" maxWidth="false">
+
      
-        <Typography  style={{  minHeight: '1760px'}} >
+      <Container id="container" className="Container" maxWidth="false">
+      
+        <Typography className="Typography" style={{  minHeight: '1760px'}} >
 
         
 
@@ -194,14 +209,14 @@ for(var i=0;i<20;i++){
 <Navbarfoot/>
 
  {/*Billboard place*/}
-<Billboard Display={this.state.billboard}/>
+<UniCreditMini Display={this.state.unicredit}/>
 
 {/*Superbanner place*/}
-<Superbanner Display={this.state.superbanner}/>
+
 
 
 <div className="MediumRectangleMobile">
-<MediumRec Display={this.state.mediumRectangle}/>
+<MobileTakeover image={FordTakeOver1} Display={this.state.MobileTakeover}/>
 </div>
 
 <Body title={Data.articles[0].title} description={Data.articles[0].description} content={Data.articles[0].content} image={Data.articles[0].urlToImage}/>
@@ -215,6 +230,10 @@ title={Data.articles[1].title} description={Data.articles[1].description} conten
 title2={Data.articles[2].title} description2={Data.articles[2].description} content2={Data.articles[2].content}
 title3={Data.articles[3].title} description3={Data.articles[3].description} content3={Data.articles[3].content}/>
 </div>
+
+
+
+
 <Typography >
 <Container className="TextaboveLine">
 
@@ -237,6 +256,10 @@ title2={Data.articles[5].title} description2={Data.articles[5].description} cont
 title3={Data.articles[6].title} description3={Data.articles[6].description} content3={Data.articles[6].content}/>
 
 
+<MobileInterscroller Display={this.state.mobileInterscroller}/>
+
+{/*Вот тут граница*/}
+
 <Typography>
 <Container className="TextaboveLine">
 
@@ -254,9 +277,12 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 </Typography>
 
 
-
+<div className="MediumRectangleMobile">
+<MobileTakeover image={FordTakeOver2} Display={this.state.MobileTakeover}/>
+</div>
 
 <Container>
+<UniCreditMini Display={this.state.unicredit}/>
 <Buttonsgroup/>
 <Grid>
 <SideBar/>
@@ -297,6 +323,13 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 
 <LargePict5 title={Data2.articles[24].title} description={Data2.articles[24].description} content={Data2.articles[24].content} image={Data2.articles[24].urlToImage}/>
 
+
+<UniCreditMini Display={this.state.unicredit}/>
+
+
+<div className="MediumRectangleMobile">
+<MobileTakeover image={FordTakeOver3} Display={this.state.MobileTakeover}/>
+</div>
 
 <Widget/>
 
@@ -538,7 +571,7 @@ title3={Data2.articles[19].title} description3={Data2.articles[19].description} 
 </Typography>
 </div>
 
-
+</div>
 
 
 <div className="Pictures4">
@@ -570,7 +603,7 @@ title3={Data.articles[1].title} description3={Data.articles[1].description} cont
 <div className="Panel">
 
 </div>
-</div>
+
 
 <Typography>
 <Container className="TextaboveLine">
