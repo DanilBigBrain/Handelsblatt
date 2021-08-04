@@ -147,6 +147,33 @@ align-items: center;
     display: none;
   }
 
+  .Interscroller{
+    display: none;
+  }
+
+  .DesktopAds{
+    display: block;
+  }
+
+  .Menu{
+    position: absolute;
+    top:35%;
+    left: 45%;
+    
+  }
+  .Name{
+    position: absolute;
+    
+    left: 32%;
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Trirong&display=swap');
+
+  .Name p{
+    
+    font-size: 3vw;
+    font-family: 'Trirong', serif;
+  }
   @media  (max-width: 768px) {
     .Backscreen{
       background-color: #f2f2f2;
@@ -231,6 +258,10 @@ align-items: center;
        margin-left: 10%;
      }
 
+     .DesktopAds{
+      display: none;
+    }
+  
     
   }
 
@@ -238,6 +269,13 @@ align-items: center;
 
   @media  (max-width: 480px) {
     
+    .DesktopAds{
+      display: none;
+    }
+    
+    .Interscroller{
+      display: block;
+    }
 
      .SkyscrapperMobile{
       display: flex;
