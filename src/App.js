@@ -93,23 +93,25 @@ const styles  = theme=> ({
   
 
     
-    <div>
+    <div >
 
 
-    <div className="Name">
-    
+    <div id="buttons" className="Name">
+    <p className="Title">Handelsblatt Simulator</p>
     <p>Werbeformen auswählen</p>
       
-    </div>
+    
    
 
-    <div id="buttons" className="Menu">
+
+    <div className="Menu">
 
     <ButtonGroup
         orientation="vertical"
         color="primary"
         aria-label="vertical contained primary button group"
         variant="contained"
+        s
       >
         <Button href="/DoubleSide">DoubleSide</Button>
         <Button href="/Interscroller">Interscroller</Button>
@@ -121,7 +123,8 @@ const styles  = theme=> ({
    
    
     </div>
- 
+    <p className="Bottom">© 2021 annalect. A brand of Omnicom Media Group. All Rights reserved</p>
+    </div>
     
     <Router>
 

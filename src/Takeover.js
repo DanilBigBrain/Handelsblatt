@@ -281,9 +281,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 </Typography>
 
 
-<div className="MediumRectangleMobile">
-<MobileTakeover image={FordTakeOver2} Display={this.state.MobileTakeover}/>
-</div>
+
 
 <Container>
 <UniCreditMini Display={this.state.unicredit}/>
@@ -332,7 +330,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 
 
 <div className="MediumRectangleMobile">
-<MobileTakeover image={FordTakeOver3} Display={this.state.MobileTakeover}/>
+<MobileTakeover image={FordTakeOver2} Display={this.state.MobileTakeover}/>
 </div>
 
 <Widget/>
@@ -341,7 +339,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 
 
 </Container>
-<div className="HideElement">
+
 <Typography>
 <Container className="TextaboveLine">
 
@@ -575,6 +573,8 @@ title3={Data2.articles[19].title} description3={Data2.articles[19].description} 
 </Typography>
 </div>
 
+<div className="MediumRectangleMobile">
+<MobileTakeover image={FordTakeOver3} Display={this.state.MobileTakeover}/>
 </div>
 
 
