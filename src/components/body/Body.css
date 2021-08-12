@@ -125,7 +125,7 @@
 
 .ColorandSize{
     color: black  !important;
-    font-size: 15px !important;
+    font-size: 2vh !important;
     font-weight: bold  !important;
     
 }
@@ -459,7 +459,7 @@
 
     .ColorandSize{
         color: black  !important;
-        font-size: 11px !important;
+        
         font-weight: normal  !important;
         
     }

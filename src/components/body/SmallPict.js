@@ -49,11 +49,11 @@ const useStyles = makeStyles((theme) => ({
          
         },
         '@media (max-width: 480px)': {
-         fontSize:10,
+         fontSize:'2.3vw',
          overflow:'hidden',
          textOverflow:'ellipsis',
          whiteSpace:'pre-line',
-         height:45,
+         height:47,
         },
     },
     block2:{

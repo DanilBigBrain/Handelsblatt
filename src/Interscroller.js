@@ -341,7 +341,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 
 
 </Container>
-<div className="HideElement">
+
 <Typography>
 <Container className="TextaboveLine">
 
@@ -358,7 +358,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 </Typography>
 
 
-<div className="HideElemets">
+
 
 <Body3Pictures2 title={Data2.articles[25].title} description={Data2.articles[25].description} content={Data2.articles[25].content} image={Data2.articles[25].urlToImage}
 title2={Data2.articles[26].title} description2={Data2.articles[26].description} content2={Data2.articles[26].content} image2={Data2.articles[28].urlToImage}
@@ -573,9 +573,7 @@ title3={Data2.articles[19].title} description3={Data2.articles[19].description} 
 <hr width="96%" className="Thickline">
   </hr>
 </Typography>
-</div>
 
-</div>
 
 
 <div className="Pictures4">
