@@ -125,7 +125,7 @@
 
 .ColorandSize{
     color: black  !important;
-    font-size: 2vh !important;
+    font-size: 10.3pt !important;
     font-weight: bold  !important;
     
 }
@@ -520,7 +520,12 @@
         font-size: 10px !important;
     }
 
-   
+    .ColorandSize{
+        color: black  !important;
+        font-size: 8pt !important;
+      
+        
+    }
     
     
 

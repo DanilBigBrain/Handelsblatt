@@ -122,13 +122,13 @@ height: 3065vh;
 
 
 .MobileInterscroller{
-    height: 100vh;
+    height:100vh;
     width: 100%;
     position: relative;
     background-image: url("./components/Apple_Mobile_interscroller.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-   background-size: cover;
+   background-size:contain
    
   
    
