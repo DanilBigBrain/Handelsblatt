@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Handelsblatt/static/css/main.13f68add.chunk.css",
+    "main.css": "/Handelsblatt/static/css/main.93f3e8bc.chunk.css",
     "main.js": "/Handelsblatt/static/js/main.1555975a.chunk.js",
     "main.js.map": "/Handelsblatt/static/js/main.1555975a.chunk.js.map",
     "runtime-main.js": "/Handelsblatt/static/js/runtime-main.04e4b886.js",
@@ -10,7 +10,7 @@
     "static/js/3.7914da28.chunk.js": "/Handelsblatt/static/js/3.7914da28.chunk.js",
     "static/js/3.7914da28.chunk.js.map": "/Handelsblatt/static/js/3.7914da28.chunk.js.map",
     "index.html": "/Handelsblatt/index.html",
-    "static/css/main.13f68add.chunk.css.map": "/Handelsblatt/static/css/main.13f68add.chunk.css.map",
+    "static/css/main.93f3e8bc.chunk.css.map": "/Handelsblatt/static/css/main.93f3e8bc.chunk.css.map",
     "static/js/2.06494065.chunk.js.LICENSE.txt": "/Handelsblatt/static/js/2.06494065.chunk.js.LICENSE.txt",
     "static/media/1-formatOriginal.d0ff2dd4.webp": "/Handelsblatt/static/media/1-formatOriginal.d0ff2dd4.webp",
     "static/media/Ads.css": "/Handelsblatt/static/media/Rollover.67e88c78.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.04e4b886.js",
     "static/js/2.06494065.chunk.js",
-    "static/css/main.13f68add.chunk.css",
+    "static/css/main.93f3e8bc.chunk.css",
     "static/js/main.1555975a.chunk.js"
   ]
 }
