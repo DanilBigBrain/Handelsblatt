@@ -45,13 +45,19 @@ const useStyles = makeStyles((theme) => ({
         
         '@media (max-width: 768px)': {
           height:'auto',
-          width:'28%',
+          width:'30%',
+          marginLeft:4
         },
         '@media (max-width: 480px)': {
           height:'auto',
-          width:'28%',
+          width:'26%',
           marginLeft:6
-        }
+        },
+        '@media (max-width: 320px)': {
+          height:'auto',
+          width:'24%',
+          
+        },
        
     },
     block1:{
@@ -76,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
       },
       '@media (max-width: 480px)': {
        
-        marginLeft:17
+        marginLeft:21
       }
     },
     block3:{
@@ -97,7 +103,7 @@ const useStyles = makeStyles((theme) => ({
    newstext:{
     
     width:'32%',
-    marginLeft:4,
+    marginLeft:1,
     display:'flex',
     flexDirection:'column',
     float:'left',
@@ -123,6 +129,7 @@ const useStyles = makeStyles((theme) => ({
   
    container:{
      width:'100%',
+    
      
    
 

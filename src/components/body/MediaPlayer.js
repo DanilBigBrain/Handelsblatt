@@ -30,8 +30,12 @@ const useStyles = makeStyles((theme) => ({
       
     }, 
 
-  test:{
-      width:'100%'
+    media:{
+      width:'100%',
+
+      '@media (max-width: 980px)': {
+      display:'none'
+      },
   },
   icon:{
     fontSize:90,
@@ -50,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
   export default function MediaPlayer() {
     const classes = useStyles();
       return (
-          <div className={classes.test}>
+          <div className={classes.media}>
              <div id="mediaplayer" className="Mediaplayer">
 
 <Grid className={classes.grid}>

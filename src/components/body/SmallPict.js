@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
          width:'30%',
          
         },
+        
     },
 
    
@@ -49,12 +50,23 @@ const useStyles = makeStyles((theme) => ({
          
         },
         '@media (max-width: 480px)': {
-         fontSize:'2.3vw',
+         fontSize:'2.6vw',
          overflow:'hidden',
          textOverflow:'ellipsis',
          whiteSpace:'pre-line',
-         height:47,
+         height:53,
+         width:220,
         },
+
+         '@media (max-width: 320px)': {
+         fontSize:'2.7vw',
+         overflow:'hidden',
+         textOverflow:'ellipsis',
+         whiteSpace:'pre-line',
+         height:41,
+         width:160,
+        },
+        
     },
     block2:{
        //14
@@ -64,7 +76,24 @@ const useStyles = makeStyles((theme) => ({
         overflow:'hidden',
         textOverflow:'ellipsis',
         whiteSpace:'nowrap',
-        
+
+        '@media (max-width: 480px)': {
+          fontSize:14,
+        marginTop:25,
+       width:220,
+        overflow:'hidden',
+        textOverflow:'ellipsis',
+        whiteSpace:'nowrap',
+        },
+
+        '@media (max-width: 320px)': {
+         fontSize:14,
+        marginTop:25,
+       width:160,
+        overflow:'hidden',
+        textOverflow:'ellipsis',
+        whiteSpace:'nowrap',
+        },
        
     },
     block3:{
