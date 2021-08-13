@@ -41,23 +41,24 @@ const useStyles = makeStyles((theme) => ({
         width:'30.5%',
 
         
-       
-        
         '@media (max-width: 768px)': {
           height:'auto',
-          width:'30%',
-          marginLeft:4
+          width:'28%',
+          marginLeft:7
         },
         '@media (max-width: 480px)': {
           height:'auto',
           width:'26%',
-          marginLeft:6
+          marginLeft:4
         },
         '@media (max-width: 320px)': {
           height:'auto',
           width:'24%',
           
         },
+        
+       
+       
        
     },
     block1:{
@@ -88,7 +89,12 @@ const useStyles = makeStyles((theme) => ({
     block3:{
         
         width:306,
-        marginLeft:31
+        marginLeft:31,
+
+        '@media (max-width: 768px)': {
+          
+          
+        },
         
     },
    

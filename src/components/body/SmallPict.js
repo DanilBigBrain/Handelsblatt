@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
          textOverflow:'ellipsis',
          whiteSpace:'pre-line',
          height:53,
-         width:220,
+         width:200,
         },
 
          '@media (max-width: 320px)': {
@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
         '@media (max-width: 480px)': {
           fontSize:14,
         marginTop:25,
-       width:220,
+       width:200,
         overflow:'hidden',
         textOverflow:'ellipsis',
         whiteSpace:'nowrap',
