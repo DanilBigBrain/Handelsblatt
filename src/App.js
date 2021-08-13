@@ -2,11 +2,9 @@
 import React,{useEffect, useState, Component} from 'react';
 import './App.css';
 // Handelsblatt Version
-import { BrowserRouter, BrowserRouter as Router,Route, Switch} from 'react-router-dom';
+//import { BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 import axios from 'axios';
-
 import { withStyles } from '@material-ui/core/styles';
-
 import Moment from 'moment'
 import DoubleSide from './DoubleSide';
 import Interscroller from './Interscroller';
@@ -16,7 +14,7 @@ import Takeover from './Takeover';
 import Link from '@material-ui/core/Link';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
-
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 //import Apple_Mobile_interscroller from './components/ads/components/Apple_Mobile_interscroller.jpg'
 
 
@@ -126,7 +124,7 @@ const styles  = theme=> ({
     <p className="Bottom">© 2021 annalect. A brand of Omnicom Media Group. All Rights reserved</p>
     </div>
     
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
 
       <div>
        
@@ -156,7 +154,7 @@ const styles  = theme=> ({
 
      </div>
 
-    </Router>
+     </Router>
 
     </div>
  
