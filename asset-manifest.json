@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Handelsblatt/static/css/main.c5e4dd7d.chunk.css",
-    "main.js": "/Handelsblatt/static/js/main.c15f93df.chunk.js",
-    "main.js.map": "/Handelsblatt/static/js/main.c15f93df.chunk.js.map",
+    "main.js": "/Handelsblatt/static/js/main.b66f874c.chunk.js",
+    "main.js.map": "/Handelsblatt/static/js/main.b66f874c.chunk.js.map",
     "runtime-main.js": "/Handelsblatt/static/js/runtime-main.04e4b886.js",
     "runtime-main.js.map": "/Handelsblatt/static/js/runtime-main.04e4b886.js.map",
-    "static/js/2.307c26f5.chunk.js": "/Handelsblatt/static/js/2.307c26f5.chunk.js",
-    "static/js/2.307c26f5.chunk.js.map": "/Handelsblatt/static/js/2.307c26f5.chunk.js.map",
+    "static/js/2.06494065.chunk.js": "/Handelsblatt/static/js/2.06494065.chunk.js",
+    "static/js/2.06494065.chunk.js.map": "/Handelsblatt/static/js/2.06494065.chunk.js.map",
     "static/js/3.7914da28.chunk.js": "/Handelsblatt/static/js/3.7914da28.chunk.js",
     "static/js/3.7914da28.chunk.js.map": "/Handelsblatt/static/js/3.7914da28.chunk.js.map",
     "index.html": "/Handelsblatt/index.html",
     "static/css/main.c5e4dd7d.chunk.css.map": "/Handelsblatt/static/css/main.c5e4dd7d.chunk.css.map",
-    "static/js/2.307c26f5.chunk.js.LICENSE.txt": "/Handelsblatt/static/js/2.307c26f5.chunk.js.LICENSE.txt",
+    "static/js/2.06494065.chunk.js.LICENSE.txt": "/Handelsblatt/static/js/2.06494065.chunk.js.LICENSE.txt",
     "static/media/1-formatOriginal.d0ff2dd4.webp": "/Handelsblatt/static/media/1-formatOriginal.d0ff2dd4.webp",
     "static/media/Ads.css": "/Handelsblatt/static/media/Rollover.67e88c78.jpg",
     "static/media/Ford_Takeover.e749e2ed.jpg": "/Handelsblatt/static/media/Ford_Takeover.e749e2ed.jpg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.04e4b886.js",
-    "static/js/2.307c26f5.chunk.js",
+    "static/js/2.06494065.chunk.js",
     "static/css/main.c5e4dd7d.chunk.css",
-    "static/js/main.c15f93df.chunk.js"
+    "static/js/main.b66f874c.chunk.js"
   ]
 }
