@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Handelsblatt/static/css/main.a9e34b64.chunk.css",
-    "main.js": "/Handelsblatt/static/js/main.6688fe42.chunk.js",
-    "main.js.map": "/Handelsblatt/static/js/main.6688fe42.chunk.js.map",
+    "main.css": "/Handelsblatt/static/css/main.10e621e8.chunk.css",
+    "main.js": "/Handelsblatt/static/js/main.918693ed.chunk.js",
+    "main.js.map": "/Handelsblatt/static/js/main.918693ed.chunk.js.map",
     "runtime-main.js": "/Handelsblatt/static/js/runtime-main.04e4b886.js",
     "runtime-main.js.map": "/Handelsblatt/static/js/runtime-main.04e4b886.js.map",
     "static/js/2.c1358e71.chunk.js": "/Handelsblatt/static/js/2.c1358e71.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.7914da28.chunk.js": "/Handelsblatt/static/js/3.7914da28.chunk.js",
     "static/js/3.7914da28.chunk.js.map": "/Handelsblatt/static/js/3.7914da28.chunk.js.map",
     "index.html": "/Handelsblatt/index.html",
-    "static/css/main.a9e34b64.chunk.css.map": "/Handelsblatt/static/css/main.a9e34b64.chunk.css.map",
+    "static/css/main.10e621e8.chunk.css.map": "/Handelsblatt/static/css/main.10e621e8.chunk.css.map",
     "static/js/2.c1358e71.chunk.js.LICENSE.txt": "/Handelsblatt/static/js/2.c1358e71.chunk.js.LICENSE.txt",
     "static/media/1-formatOriginal.d0ff2dd4.webp": "/Handelsblatt/static/media/1-formatOriginal.d0ff2dd4.webp",
+    "static/media/Ads.css": "/Handelsblatt/static/media/Rollover.67e88c78.jpg",
     "static/media/Ford_Takeover.e749e2ed.jpg": "/Handelsblatt/static/media/Ford_Takeover.e749e2ed.jpg",
     "static/media/Ford_Takeover_2.54174bbb.jpg": "/Handelsblatt/static/media/Ford_Takeover_2.54174bbb.jpg",
     "static/media/Ford_Takeover_3.4f147955.jpg": "/Handelsblatt/static/media/Ford_Takeover_3.4f147955.jpg",
-    "static/media/Ads.css": "/Handelsblatt/static/media/Rollover.67e88c78.jpg",
     "static/media/RolloverMini.74203449.png": "/Handelsblatt/static/media/RolloverMini.74203449.png",
     "static/media/Sidebar.bd18f3db.jpg": "/Handelsblatt/static/media/Sidebar.bd18f3db.jpg",
     "static/media/beratung.de.5d3325d0.webp": "/Handelsblatt/static/media/beratung.de.5d3325d0.webp",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.04e4b886.js",
     "static/js/2.c1358e71.chunk.js",
-    "static/css/main.a9e34b64.chunk.css",
-    "static/js/main.6688fe42.chunk.js"
+    "static/css/main.10e621e8.chunk.css",
+    "static/js/main.918693ed.chunk.js"
   ]
 }
