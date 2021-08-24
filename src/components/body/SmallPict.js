@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
       //24
         fontSize:'1.5vw',
         fontWeight:'bold',
-        height:110,
+        height:'auto', //110
         overflow:'hidden',
         textOverflow:'ellipsis',
         whiteSpace:'pre-line',

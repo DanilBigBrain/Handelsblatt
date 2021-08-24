@@ -49,8 +49,8 @@ import FordTakeOver3 from './components/ads/components/Ford_Takeover_3.jpg'
 
 import {FooterBanner} from './components/ads/FooterBanner.js'
 import {UniCredit} from './components/ads/UniCredit.js'
-import {DoppelSideBarRight} from './components/ads/DoppelSideBarRight.jsx'
-import {DoppelSideBarLeft} from './components/ads/DoppelSideBarLeft.jsx'
+import {DoppelSideBarRight} from './components/ads/DoppelSideBarRight.js'
+import {DoppelSideBarLeft} from './components/ads/DoppelSideBarLeft.js'
 import {Sidebar} from './components/ads/Sidebar.js'
 import {MobileTakeover} from './components/ads/MobileTakeover.js'
 import {MobileInterscroller} from './components/ads/MobileInterscroller.js'
@@ -257,11 +257,7 @@ title={Data.articles[4].title} description={Data.articles[4].description} conten
 title2={Data.articles[5].title} description2={Data.articles[5].description} content2={Data.articles[5].content}
 title3={Data.articles[6].title} description3={Data.articles[6].description} content3={Data.articles[6].content}/>
 
-<div className="Interscroller">
 
-<MobileInterscroller Display={this.state.mobileInterscroller}/>
-
-</div>
 {/*Вот тут граница*/}
 
 <Typography>

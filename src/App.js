@@ -8,6 +8,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Moment from 'moment'
 import DoubleSide from './DoubleSide';
 import Interscroller from './Interscroller';
+import Interscroller2 from './Interscroller2';
 import Rollover from './Rollover';
 import Sidebar from './Sidebar';
 import Takeover from './Takeover';
@@ -116,6 +117,7 @@ const styles  = theme=> ({
         <Button href="/Rollover">Rollover</Button>
         <Button href="/Sidebar">Sidebar</Button>
         <Button href="/Takeover">Takeover</Button>
+        <Button href="/Interscroller2">Interscroller Muenchen</Button>
       </ButtonGroup>
     
    
@@ -136,6 +138,10 @@ const styles  = theme=> ({
 
       <Route path="/Interscroller">
       <Interscroller/>
+      </Route>
+
+      <Route path="/Interscroller2">
+      <Interscroller2/>
       </Route>
 
       <Route path="/Rollover">

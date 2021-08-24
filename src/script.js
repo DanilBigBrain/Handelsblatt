@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var sidebar=document.getElementById("sidebar")
     var buttons=document.getElementById("buttons")
     //var block1SmalPict=document.getElementById("block1")
-
+   // document.getElementById("interscroller").style.backgroundAttachment='fixed'
    container.style.maxWidth=dopelsiteAd.style.display==='none'? '1020px':'820px'
    //container.style.maxWidth=sidebar.style.display==='none'? '1020px':'820px'
    container.style.marginTop=rollover.style.display==='none'? '0':'10%'

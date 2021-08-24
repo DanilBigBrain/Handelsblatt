@@ -16,6 +16,13 @@
   }
 }
 
+.Block{
+  width: 50vh;
+    height: 100vh;
+    background-color: black;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -43,11 +50,29 @@
 
 .Backscreen{
   background-color: #f2f2f2;
-  min-height: auto;
+ min-height: auto;
   max-width:1060;
   display: flex;
   flex-direction: column;
     
+}
+
+.BackscreenInterscroller{
+  background-color: #fafafa;
+ max-height: 860px;
+  max-width:1060;
+  display: flex;
+  flex-direction: column;
+    
+}
+
+.BackscreenInterscroller2{
+  background-color: #fafafa !important; 
+  min-height:auto !important;
+   max-width:1060px !important;
+   
+   
+  
 }
 
 .Logo{
@@ -292,7 +317,10 @@ align-items: center;
     }
     
     .Interscroller{
-      display: block;
+      display: flex;
+      flex-direction: column;
+      height:490px;
+      width: 100%;
     }
 
      .SkyscrapperMobile{

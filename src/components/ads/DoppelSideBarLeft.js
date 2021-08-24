@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 
-
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import ShareIcon from '@material-ui/icons/Share';
@@ -40,14 +39,15 @@ const useStyles = makeStyles((theme) => ({
             <div className="DoppelSideBarLeft" >
 
             
-       {/*  <img className="Skypict" src="https://s0.2mdn.net/dfp/230725/4884463874/1610104558344/index.html" alt="logo"/> */}
- 
-        <iframe  className="DoppelSideBarLeftpict" src="https://s0.2mdn.net/dfp/230725/4884463874/1610104635490/index.html" frameborder="0"></iframe>
-    
+       {/*  <iframe  className="DoppelSideBarLeftpict" sandbox="allow-same-origin"  src="https://s0.2mdn.net/dfp/230725/4884463874/1610104558344/index.html" frameborder="0"></iframe> */}
+
+                                                                                
+        <iframe  className="DoppelSideBarLeftpict"  src="https://s0.2mdn.net/dfp/230725/4884463874/1610104635490/index.html" frameborder="0"></iframe>
+        </div>  
         {/*https://s0.2mdn.net/dfp/230725/4884463874/1610104558344/index.html*/}
             </div>
 
-            </div>
+        
 
        
 

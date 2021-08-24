@@ -43,6 +43,7 @@ height: 3065vh;
   
     width: 50vh;
     height: 100vh;
+    
    
     
 }
@@ -60,6 +61,7 @@ height: 3065vh;
     position: absolute;
     right: 0;
     height: 3053vh;
+    pointer-events: none;
   
 }
 
@@ -71,6 +73,8 @@ height: 3065vh;
    
     
 }
+
+
 
 .DoppelSideBarLeft{
     
@@ -85,7 +89,7 @@ height: 3065vh;
     position: absolute;
     left: 0;
     height: 3053vh;
-    
+    pointer-events: none;
 }
 
 
@@ -125,10 +129,7 @@ height: 3065vh;
     height:100vh;
     width: 100%;
     position: relative;
-    background-image: url("./components/Apple_Mobile_interscroller.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-   background-size:contain
+    
    
   
    
@@ -136,8 +137,29 @@ height: 3065vh;
     
     }
     .MobileInterscrollerPict{
-        
+        position: fixed;
+        top: 15%;
+        z-index: -2;
+        background-image: url("./components/Apple_Mobile_interscroller.jpg");
+       
+        background-repeat: no-repeat;
+        background-size:contain;
+         height: inherit;
+        width: inherit;
     }
+
+    .MobileInterscrollerPict2{
+        position: fixed;
+        top: 15%;
+        z-index: -2;
+        background-image: url("./components/Apple_Mobile_interscroller2.jpg");
+       
+        background-repeat: no-repeat;
+        background-size:contain;
+         height: inherit;
+        width: inherit;
+    }
+   
 
 @media  (max-width: 480px) {
 

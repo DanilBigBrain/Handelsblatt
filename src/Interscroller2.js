@@ -53,7 +53,7 @@ import {DoppelSideBarRight} from './components/ads/DoppelSideBarRight.js'
 import {DoppelSideBarLeft} from './components/ads/DoppelSideBarLeft.js'
 import {Sidebar} from './components/ads/Sidebar.js'
 import {MobileTakeover} from './components/ads/MobileTakeover.js'
-import {MobileInterscroller} from './components/ads/MobileInterscroller.js'
+import {MobileInterscroller2} from './components/ads/MobileInterscroller2.js'
 import {Rectangle} from './components/ads/Rectangle.js'
 import {UniCreditMini} from './components/ads/UniCreditMini.js'
 
@@ -261,7 +261,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 </Container>
 <div className="Interscroller">
 
-<MobileInterscroller Display={this.state.mobileInterscroller}/>
+<MobileInterscroller2 Display={this.state.mobileInterscroller}/>
 
 </div>
 

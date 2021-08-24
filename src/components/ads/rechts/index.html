@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Volvo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="resize.js"></script>
+  <script>
+    var getUriParams = function() {
+        var query_string = {}
+        var query = window.location.search.substring(1);
+        var parmsArray = query.split('&');
+        if (parmsArray.length <= 0) return query_string;
+        for (var i = 0; i < parmsArray.length; i++) {
+            var pair = parmsArray[i].split('=');
+            var val = decodeURIComponent(pair[1]);
+            if (val != '' && pair[0] != '') query_string[pair[0]] = val;
+        }
+        return query_string;
+    }();
+  </script>
+</head>
+
+<body>
+  <a href="#clicktag" id="IAB_clicktag" target="_blank">
+    <div id="ad">
+      <div id="content">
+        <div id="visual" class="el">
+          <img src="img/visual.jpg">
+        </div>
+        <div id="hl" class="el">
+          <img src="img/hl.png">
+        </div>
+      </div>
+
+      <div id="logo" class="el">
+        <img src="img/logo.png">
+      </div>
+      <div id="logoBlack" class="el">
+        <img src="img/logoBlack.png">
+      </div>
+      <div id="border" class="el"></div>
+    </div>
+  </a>
+
+  <script type="text/javascript">
+    var $ad = document.getElementById('ad'),
+         tl = new TimelineMax();
+
+    function startAnim() {
+      tl.add('start')
+        .to('#ad', 1.2, { opacity: 1 })
+        .to('#hl', 1, { opacity: 1 }, '-=.4')
+        .to('#visual', 1.5, {x: -300, ease:Power2.easeInOut, force3D:false }, 'start+=2.5')
+        .to('#visual', 1.5, {x: -600, ease:Power2.easeInOut, force3D:false }, 'start+=5')
+
+        .to('#logoBlack', 1, { opacity: 1 }, 'start+=3')
+        .to('#logoBlack', 1, { opacity: 0 }, 'start+=5.4')
+    }
+
+    document.getElementById('IAB_clicktag').setAttribute('href', getUriParams.clicktag);
+    startAnim();
+  </script>
+</body>
+
+</html>

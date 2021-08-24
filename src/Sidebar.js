@@ -38,7 +38,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Data2 from './data2.json';
 import Moment from 'moment'
 import 'moment/locale/de'
-import './script.js'
+//import './script.js'
 import FordTakeOver1 from './components/ads/components/Ford_Takeover.jpg'
 import FordTakeOver2 from './components/ads/components/Ford_Takeover_2.jpg'
 import FordTakeOver3 from './components/ads/components/Ford_Takeover_3.jpg'
@@ -49,8 +49,8 @@ import FordTakeOver3 from './components/ads/components/Ford_Takeover_3.jpg'
 
 import {FooterBanner} from './components/ads/FooterBanner.js'
 import {UniCredit} from './components/ads/UniCredit.js'
-import {DoppelSideBarRight} from './components/ads/DoppelSideBarRight.jsx'
-import {DoppelSideBarLeft} from './components/ads/DoppelSideBarLeft.jsx'
+import {DoppelSideBarRight} from './components/ads/DoppelSideBarRight.js'
+import {DoppelSideBarLeft} from './components/ads/DoppelSideBarLeft.js'
 import {Sidebar} from './components/ads/Sidebar.js'
 import {MobileTakeover} from './components/ads/MobileTakeover.js'
 import {MobileInterscroller} from './components/ads/MobileInterscroller.js'
@@ -126,6 +126,8 @@ function update(){
 
   render(){
 
+    <script src="./script.js"></script>
+
     for(var i=0;i<20;i++){
       if(Data.articles[i].urlToImage==null){
         Data.articles[i].urlToImage={noimage}
@@ -181,7 +183,7 @@ for(var i=0;i<20;i++){
       <CssBaseline />
 
      
-      <Container id="container" className="Container" maxWidth="false">
+      <Container id="container" className="ContainerDoubleSide" maxWidth="false">
       
         <Typography className="Typography" style={{  minHeight: '1760px'}} >
 
@@ -291,7 +293,7 @@ title3={Data.articles[6].title} description3={Data.articles[6].description} cont
 <Grid>
 <SideBar/>
 </Grid>
-<MediaPlayer/>
+
 
 
 

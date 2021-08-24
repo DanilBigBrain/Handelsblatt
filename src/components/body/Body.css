@@ -8,6 +8,25 @@
     background-color: white;
     position: relative;
     
+   
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%)*/
+}
+
+.ContainerInterscroller{
+    /*1020*/
+    max-width: 1020px;
+    background-color: transparent;
+    position: relative;
+    height: 130vh;
+   
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%)*/
+}
+
+.ContainerRollover{
+    max-width: 1020px;
+    background-color: white;
+    position: relative;
+    margin-top: 10%;
     transition: 2s;
 }
 

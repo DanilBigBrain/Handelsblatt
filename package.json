@@ -4,7 +4,6 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "homepage": "https://danilbigbrain.github.io/Handelsblatt/#/",
-  
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
