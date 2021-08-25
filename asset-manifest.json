@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Handelsblatt/static/css/main.5bda8822.chunk.css",
-    "main.js": "/Handelsblatt/static/js/main.b00d9802.chunk.js",
-    "main.js.map": "/Handelsblatt/static/js/main.b00d9802.chunk.js.map",
+    "main.js": "/Handelsblatt/static/js/main.897de6f3.chunk.js",
+    "main.js.map": "/Handelsblatt/static/js/main.897de6f3.chunk.js.map",
     "runtime-main.js": "/Handelsblatt/static/js/runtime-main.04e4b886.js",
     "runtime-main.js.map": "/Handelsblatt/static/js/runtime-main.04e4b886.js.map",
     "static/js/2.71c3894f.chunk.js": "/Handelsblatt/static/js/2.71c3894f.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.04e4b886.js",
     "static/js/2.71c3894f.chunk.js",
     "static/css/main.5bda8822.chunk.css",
-    "static/js/main.b00d9802.chunk.js"
+    "static/js/main.897de6f3.chunk.js"
   ]
 }
