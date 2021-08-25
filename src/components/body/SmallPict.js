@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     block1:{
     
       //24
-        fontSize:'1.5vw',
+        fontSize:'1.1vw',
         fontWeight:'bold',
         height:'auto', //110
         overflow:'hidden',

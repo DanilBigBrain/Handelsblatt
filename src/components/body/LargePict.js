@@ -28,9 +28,9 @@ const useStyles = makeStyles((theme) => ({
     block1:{
     
       //31
-        fontSize:'1.4vw',
+        fontSize:'1.2vw',
         fontWeight:'bolder',
-        height:95,
+        height:'auto', //95
         overflow:'hidden',
         textOverflow:'ellipsis',
         whiteSpace:'pre-line',
