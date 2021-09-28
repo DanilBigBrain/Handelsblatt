@@ -1,3 +1,12 @@
+.Minilogo{
+  height: 18px;
+  width: 18px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+
+
 .Head{
     
   display: flex;
@@ -79,11 +88,13 @@ top: 5px;
 .SizeofText{
   color: black !important;
   font-size: 13px !important;
+  pointer-events: none;
 }
 .NavFoot{
   width: 100%;
  height: auto;
  word-break:break-all;
+ 
 }
 /*////////////////////////////////////////////////////////////////////////*/
 
@@ -173,6 +184,7 @@ top: 5px;
     margin-top: 40px !important;
     width: 100% !important;
     float: left;
+    pointer-events: none;
   }
 
   

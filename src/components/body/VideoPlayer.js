@@ -2,7 +2,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
-import Test from './picture_test/test.jpg'
+import Test from './picture_test/noimage.png'
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import ShareIcon from '@material-ui/icons/Share';
@@ -85,7 +85,7 @@ export default function VideoPlayer() {
 
                  <Container className={classes.block2}>
 
-<Link  href="#" className='HeadColor'>
+<Link   className='HeadColor'>
   
 Nach Kandidatenkür
   </Link>
@@ -94,7 +94,7 @@ Nach Kandidatenkür
       <Container className={classes.block1}>
 
       
-<Link  href="#" className="LinkColor">
+<Link   className="LinkColor">
   
 
 Aufgebrachte Basis und kein Wahlprogramm: CDU und CSU bleibt kaum Zeit zum Wundenlecken
@@ -104,7 +104,7 @@ Aufgebrachte Basis und kein Wahlprogramm: CDU und CSU bleibt kaum Zeit zum Wunde
 
 
 
-<Link href="#">
+<Link >
  
  </Link>
  <Container  className={classes.block3}>
@@ -115,7 +115,7 @@ Aufgebrachte Basis und kein Wahlprogramm: CDU und CSU bleibt kaum Zeit zum Wunde
    
      </Link>
 
-     <Link  href="#" className="More">
+     <Link   className="More">
   
        Mehr...
      </Link>

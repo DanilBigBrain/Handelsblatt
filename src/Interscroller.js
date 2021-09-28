@@ -38,7 +38,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Data2 from './data2.json';
 import Moment from 'moment'
 import 'moment/locale/de'
-import './script.js'
+//import './script.js'
 import FordTakeOver1 from './components/ads/components/Ford_Takeover.jpg'
 import FordTakeOver2 from './components/ads/components/Ford_Takeover_2.jpg'
 import FordTakeOver3 from './components/ads/components/Ford_Takeover_3.jpg'
@@ -121,11 +121,14 @@ function update(){
  };}
 
  componentDidMount(){
- 
+   
 }
 
   render(){
 
+    
+    
+    
     for(var i=0;i<20;i++){
       if(Data.articles[i].urlToImage==null){
         Data.articles[i].urlToImage={noimage}
@@ -221,11 +224,16 @@ for(var i=0;i<20;i++){
 <MobileTakeover image={FordTakeOver1} Display={this.state.MobileTakeover}/>
 </div>
 
+
 <Body title={Data.articles[0].title} description={Data.articles[0].description} content={Data.articles[0].content} image={Data.articles[0].urlToImage}/>
+
+
+
 <Typography >
 <hr width="100%" className={classes.line}>
   </hr>
 </Typography>
+
 <div className="First3Picturies">
 <Body3Pictures image={Data.articles[1].urlToImage} image2={Data.articles[2].urlToImage} image3={Data.articles[3].urlToImage}
 title={Data.articles[1].title} description={Data.articles[1].description} content={Data.articles[1].content}

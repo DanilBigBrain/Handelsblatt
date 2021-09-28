@@ -60,7 +60,7 @@ height: 3065vh;
 .DoppelSideBarRight1Lay{
     position: absolute;
     right: 0;
-    height: 3053vh;
+    height: 2910vh;
     pointer-events: none;
   
 }
@@ -88,7 +88,7 @@ height: 3065vh;
 .DoppelSideBarLeft1Lay{
     position: absolute;
     left: 0;
-    height: 3053vh;
+    height: 2910vh; 
     pointer-events: none;
 }
 
@@ -97,7 +97,8 @@ height: 3065vh;
 .Sidebar1Lay{
     position: absolute;
     right: 0;
-    height: 3043vh;
+    height: 2910vh;
+    
 }
 
 .Sidebar{
@@ -129,7 +130,6 @@ height: 3065vh;
     height:100vh;
     width: 100%;
     position: relative;
-    
    
   
    
@@ -192,10 +192,7 @@ height: 3065vh;
         display: none;
      }
 
-     .MobileInterscroller{
-       displayF: none;
-       
-       }
+     
 
 
        .Display{
@@ -263,6 +260,15 @@ height: 3065vh;
        display: none;
     }
     
-
+    
 
   }
+
+  @media  (max-width: 768px) {
+    
+  
+    .Name{
+        display: none;
+      }
+    
+}

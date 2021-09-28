@@ -2,7 +2,7 @@
 import React,{useEffect, useState, Component} from 'react';
 import './App.css';
 // Handelsblatt Version
-//import { BrowserRouter as Router,Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 import axios from 'axios';
 import { withStyles } from '@material-ui/core/styles';
 import Moment from 'moment'
@@ -15,7 +15,7 @@ import Takeover from './Takeover';
 import Link from '@material-ui/core/Link';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
-import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+//import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 //import Apple_Mobile_interscroller from './components/ads/components/Apple_Mobile_interscroller.jpg'
 
 
@@ -70,6 +70,7 @@ const styles  = theme=> ({
    sidebar:'none',
    mobileInterscroller:'none',
    MobileTakeover:'none',
+  
    
    rectangle:'none',
   //date: new Date().toLocaleString()
@@ -90,10 +91,11 @@ const styles  = theme=> ({
   
   return (
   
-
+ 
     
     <div >
-
+     
+     
 
     <div id="buttons" className="Name">
     <p className="Title">Handelsblatt Simulator</p>
@@ -110,7 +112,7 @@ const styles  = theme=> ({
         color="primary"
         aria-label="vertical contained primary button group"
         variant="contained"
-        s
+        
       >
         <Button href="/DoubleSide">DoubleSide</Button>
         <Button href="/Interscroller">Interscroller</Button>
@@ -161,6 +163,8 @@ const styles  = theme=> ({
      </div>
 
      </Router>
+
+     
 
     </div>
  

@@ -646,7 +646,7 @@ title3={Data.articles[2].title} description3={Data.articles[2].description} cont
 </Container>
 </div>
 <Grid align="center">
-<Chart/>
+{/*Platz für Chart*/}
 </Grid>
 
 <div className="HideElement">

@@ -16,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: theme.spacing(2),
       color: '#000000',
        fontWeight:700,
-       fontSize:'0.75vw', //11
+       //fontSize:'0.75vw', //11
+       fontSize:9,
       height:'auto',
       width:'100%',
       '@media (max-width: 768px)': {
@@ -31,8 +32,8 @@ const useStyles = makeStyles((theme) => ({
     
   },
   minilogo:{
-    width:18,
-    height:18,
+    width:15,
+    height:15,
     
     
     
@@ -60,14 +61,17 @@ export default function Links() {
 
   return (
     <div className="NavFoot">
+      
     <Typography align="center" className={classes.root}>
       <Link href="#">
       
       </Link>
      
       <Link  href="#" >
-      <img className={classes.minilogo} src={minilogo} alt="logo" />
+        
+      <img className="Minilogo" src={minilogo} alt="logo" />
         MEINE NEWS
+        
       </Link>
       <Link  href="#" >
         |
@@ -99,9 +103,7 @@ export default function Links() {
       <Link href="#" variant="body2">
        MEINUNG
       </Link>
-      <Link href="#"   variant="body2">
-       VIDEO
-      </Link>
+      
 
       <Link href="#"   variant="body2">
        SERVICE

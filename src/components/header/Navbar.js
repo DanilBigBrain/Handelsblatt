@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: theme.spacing(2),
       color: '#646464',
       
-       fontSize:12,
+       fontSize:11,
      width:'100%',
        '@media (max-width: 768px)': {
         fontSize:9,
@@ -32,8 +32,8 @@ const useStyles = makeStyles((theme) => ({
 
   date:{
     color: '#646464',
-    fontSize:'0.7vw', //12
-  
+    //fontSize:'0.7vw', //12
+    fontSize:10,
   },
 
   test:{

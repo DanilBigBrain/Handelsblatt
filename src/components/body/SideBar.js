@@ -18,6 +18,7 @@ import Firmen from './picture_test/firmen.tv.webp'
 import Gastro from './picture_test/gastrotipps.webp'
 import Partner from './picture_test/partner.webp'
 import Beratung from './picture_test/beratung.de.webp'
+import Iframe from './picture_test/iframe.png'
 
 import  './Body.css'
 
@@ -211,8 +212,10 @@ const useStyles = makeStyles((theme) => ({
               <div className="Newsticker" style={{overflowY:'hidden'}}>
               <iframe  className="ElectionFrame" scrolling="no" src="https://datawrapper.dwcdn.net/WifNk/5/"></iframe>
               </div>
+              
               <div className="Smallnewsticker" >
-              <iframe  className="Chart" scrolling="no" src="https://finanzen.handelsblatt.com/include_topflop.htn?ansicht=uebersicht&size=405"></iframe>
+              {/*<iframe  className="Chart" scrolling="no" src="https://finanzen.handelsblatt.com/include_topflop.htn?ansicht=uebersicht&size=405"></iframe>*/}
+              <img src={Iframe} className="Chart"/>
               </div>
 
               <div className="Smallnewsticker">

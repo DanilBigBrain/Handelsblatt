@@ -1,9 +1,8 @@
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  
-    
-    
+ 
+    /*
     var dopelsiteAd=document.getElementById("DopelRight")
     var mediaplayer=document.getElementById("mediaplayer")
     var container=document.getElementById("container")
@@ -24,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
    //container.style.setProperty("-webkit-transition", " 2s linear")
    //container.style.setProperty("-moz-transition", " 2s linear")
 
-/*
+
 
 
     if(document.getElementById("DopelRight").style.display=='none')
@@ -36,10 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("container").style.width='820px'
       
     }
-    */
+    
     mediaplayer.style.display=dopelsiteAd.style.display==='none'? '':'none'
     
-    
+    */
 
      
   

@@ -32,10 +32,10 @@ const useStyles = makeStyles((theme) => ({
     },
 
    
-    block1:{
+    block1:{  //description
     
       //24
-        fontSize:'1.1vw',
+        fontSize:16,
         fontWeight:'bold',
         height:'auto', //110
         overflow:'hidden',
@@ -44,46 +44,47 @@ const useStyles = makeStyles((theme) => ({
         width:'60%', //370
         '@media (max-width: 768px)': {
          fontSize:15,
-         height:90,
+         height:'auto',
          
          width:290,
          
         },
         '@media (max-width: 480px)': {
-         fontSize:'2.6vw',
+         fontSize:11,
          overflow:'hidden',
          textOverflow:'ellipsis',
          whiteSpace:'pre-line',
-         height:53,
+         height:'auto',
          width:200,
+         marginTop:10,
         },
 
          '@media (max-width: 320px)': {
-         fontSize:'2.7vw',
+         fontSize:11,
          overflow:'hidden',
          textOverflow:'ellipsis',
          whiteSpace:'pre-line',
-         height:41,
+         height:'auto',
          width:160,
+         marginTop:10,
         },
         
     },
-    block2:{
+    block2:{    //Title
        //14
         fontSize:14,
         marginTop:25,
        width:200,
         overflow:'hidden',
-        textOverflow:'ellipsis',
-        whiteSpace:'nowrap',
+       height:45,
 
         '@media (max-width: 480px)': {
           fontSize:14,
         marginTop:25,
        width:200,
+       height:'auto',
         overflow:'hidden',
-        textOverflow:'ellipsis',
-        whiteSpace:'nowrap',
+       
         },
 
         '@media (max-width: 320px)': {
@@ -91,12 +92,11 @@ const useStyles = makeStyles((theme) => ({
         marginTop:25,
        width:160,
         overflow:'hidden',
-        textOverflow:'ellipsis',
-        whiteSpace:'nowrap',
+        height:'auto',
         },
        
     },
-    block3:{
+    block3:{         //content
         fontSize:14, 
         marginTop:20, 
         '@media (max-width: 768px)': {

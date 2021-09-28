@@ -51,8 +51,8 @@ const useStyles = makeStyles((theme) => ({
     block1:{
       
         width:350,
-        height:150,
-        fontSize:'1.6vw',
+        height:'auto',
+        fontSize:20,
         overflow:'hidden',
         textOverflow:'ellipsis',
       
@@ -80,12 +80,11 @@ const useStyles = makeStyles((theme) => ({
         marginTop:40,
        
      
-        fontSize:14,
+        //fontSize:14,
       
-        width:210,
+        width:250,
         overflow:'hidden',
-        textOverflow:'ellipsis',
-        whiteSpace:'nowrap',
+        height:50,
         '@media (max-width: 480px)': {
           width:250,
           fontSize:13,
@@ -144,7 +143,7 @@ const useStyles = makeStyles((theme) => ({
       
       <Container className={classes.block2}>
 
-      <Link   className='AboveHeadColor'>
+      <Link className='AboveHeadColor'>
        
       {props.title}
         </Link>
@@ -210,8 +209,10 @@ const useStyles = makeStyles((theme) => ({
       <img className={classes.picture} src={props.image} onError={(e)=>{e.target.onerror = null; e.target.src=Noimage}} />
       </Link>
       </div>
-    
-            </div>
+
+
+      </div>
+          
         );
     
 }

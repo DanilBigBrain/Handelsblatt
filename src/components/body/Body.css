@@ -2,6 +2,8 @@
   
 }
 
+
+
 .Container{
     /*1020*/
     max-width: 1020px;
@@ -87,11 +89,21 @@
 }
 .HeadColor{
     color:#ee7f00 !important;
+    font-size: 10pt;
+    
+}
+
+.HeadContainer{
+    height: auto !important;
+    overflow: hidden;
+   
+    cursor: pointer !important;
 }
 
 .AboveHeadColor{
     color:#ee7f00 !important;
     cursor: pointer !important;
+    font-size: 10pt;
     
 }
 
@@ -111,7 +123,7 @@
     min-height:auto !important;
     display: flex !important;
     justify-content: center;
-   
+    pointer-events: none;
     
 }
 
@@ -120,22 +132,16 @@
     display: flex !important;
     justify-content: center;
     width: 100%;
-   
+   pointer-events: none;
 }
 
-.HeadContainer{
-    height: 25px !important;
-    text-overflow: ellipsis    !important;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor: pointer !important;
-}
+
 
 .DescriptionContainer{
-    height: 100px !important;
-    text-overflow: ellipsis    !important;
+    height: auto !important;
+   
     overflow:hidden;
-   white-space: pre-line;
+   
    cursor: pointer !important;
    
 }
@@ -256,7 +262,7 @@
     
     margin-left:15px;
     font-weight: 700;
-    font-size: 0.9vw; /*0.9em*/
+    font-size: 10pt; /*0.9em*/
     color: black;
 }
 
@@ -274,7 +280,7 @@
 
 .ThreeBarsText{
     font-weight: bold;
-    font-size: 0.9vw;
+    font-size: 10pt;
     color: black;
     
     
@@ -301,7 +307,7 @@
 
 .ThreeBarsHead{
     font-weight: bold;
-    font-size: 0.6vw;
+    font-size: 9pt;
     color: #ee7f00;
     height: 5px;
     margin-top: 10px;
@@ -331,7 +337,7 @@
    max-height: auto;
    margin-top: 6%;
    display: flex !important;
-   
+   pointer-events: none;
    
 }
 
@@ -376,9 +382,10 @@
 .Widget{
     max-width: 620px;
     max-height: 642px;
-    
+    pointer-events: none;
     display: flex !important;
     background-color: #f2f2f2;
+   
 }
 
 .Video{
@@ -390,7 +397,7 @@
 .Chart{
     width: 100%;
     height: 450px;
-    
+    pointer-events: none;
     
 }
 
@@ -443,7 +450,7 @@
 .LinksColorandSize{
 
     color: #b9b9b9 !important;
-    font-size: 0.9vw;
+    font-size: 10pt;
     font-weight: normal;
    
 }
@@ -526,7 +533,7 @@
     .Chart{
         width: 100%;
         height: auto;
-
+        pointer-events: none;
         
     }
 
@@ -536,17 +543,34 @@
   @media  (max-width: 480px) {
     .HeadColor{
         color:#ee7f00 !important;
-        font-size: 10px !important;
+        font-size: 8.5px !important;
     }
 
     .ColorandSize{
         color: black  !important;
-        font-size: 8pt !important;
+        font-size: 7.5pt !important;
       
         
     }
     
     
+.DescriptionContainer{
+    height: auto !important;  /*100px*/
+    margin-top: 10px;
+    overflow:hidden;
+    text-overflow:ellipsis    !important;
+   white-space: pre-line;
+   cursor: pointer !important;
+   
+}
+
+
+.HeadContainer{
+    height: 20px !important;
+    overflow: hidden;
+   
+    cursor: pointer !important;
+}
 
   }
 
