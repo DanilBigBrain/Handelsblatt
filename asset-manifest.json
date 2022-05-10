@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Handelsblatt/static/css/main.c9c4af09.chunk.css",
-    "main.js": "/Handelsblatt/static/js/main.8f0ec422.chunk.js",
-    "main.js.map": "/Handelsblatt/static/js/main.8f0ec422.chunk.js.map",
+    "main.js": "/Handelsblatt/static/js/main.f4052e31.chunk.js",
+    "main.js.map": "/Handelsblatt/static/js/main.f4052e31.chunk.js.map",
     "runtime-main.js": "/Handelsblatt/static/js/runtime-main.04e4b886.js",
     "runtime-main.js.map": "/Handelsblatt/static/js/runtime-main.04e4b886.js.map",
     "static/js/2.f8d8b6f6.chunk.js": "/Handelsblatt/static/js/2.f8d8b6f6.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/bild.fea99dd9.png": "/Handelsblatt/static/media/bild.fea99dd9.png",
     "static/media/circle.811f3a70.svg": "/Handelsblatt/static/media/circle.811f3a70.svg",
     "static/media/firmen.tv.fa11e176.webp": "/Handelsblatt/static/media/firmen.tv.fa11e176.webp",
+    "static/media/garten1.b16cbabd.mp4": "/Handelsblatt/static/media/garten1.b16cbabd.mp4",
     "static/media/gastrotipps.6cfa7485.webp": "/Handelsblatt/static/media/gastrotipps.6cfa7485.webp",
     "static/media/iframe.e66bd527.png": "/Handelsblatt/static/media/iframe.e66bd527.png",
     "static/media/logo.6ce24c58.svg": "/Handelsblatt/static/media/logo.6ce24c58.svg",
@@ -35,6 +36,6 @@
     "static/js/runtime-main.04e4b886.js",
     "static/js/2.f8d8b6f6.chunk.js",
     "static/css/main.c9c4af09.chunk.css",
-    "static/js/main.8f0ec422.chunk.js"
+    "static/js/main.f4052e31.chunk.js"
   ]
 }
